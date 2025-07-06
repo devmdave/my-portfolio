@@ -31,8 +31,8 @@ export default function Home() {
             <h1 className="text-sm max-md:mt-[2vh] text-slate-700 uppercase poppins-regular">
               Software Engineer | Web Developer | Tech Enthusiast
             </h1>
-            <button className="h-auto animate-bounce max-md:mx-auto max-md:mt-[6vh] max-md:w-full mt-8 px-8 py-3 rounded-full bg-gradient-to-r from-gray-500 to-slate-700 text-white font-bold shadow-lg hover:from-slate-600 hover:to-gray-700 transition-all duration-300">
-              Hire Me
+            <button className="h-auto uppercase animate-bounce max-md:mx-auto max-md:mt-[6vh] max-md:w-full mt-8 px-8 py-3 rounded-full bg-gradient-to-r from-gray-500 to-slate-700 text-white font-bold shadow-lg hover:from-slate-600 hover:to-gray-700 transition-all duration-300">
+              download cv
             </button>
             {/* <h1 className="text-sm mt-[5vh] w-[50%] text-[#47411C] poppins-regular">
                 I’m a versatile developer skilled in HTML, CSS, and JavaScript. I work with modern frameworks like Next.js, Vue.js, and AngularJS. I craft web solutions that are fast, expressive, and user-centered. My experience spans Android app development and Python automation. I blend functionality with elegance to build tools that truly work

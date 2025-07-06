@@ -11,15 +11,24 @@ const Navbar = () => {
     <nav className='bg-transparent mb-10 flex max-md:flex-col flex-row text-white p-4'>
         <div className="w-[60%] max-md:w-[100%] ">
           <div className='w-[100%] max-md:w-[100%] max-md:mx-auto'>
-            <a href='/'><h1 className="nautigal-bold duration-1000 ease-in-out transition-all max-md:text-8xl max-md:mx-auto text-center text-6xl text-slate-700 hover:text-[#D5C455]" >&lt;m.dev/&gt;</h1></a>
+            <a href='/my-portfolio'><h1 className="nautigal-bold duration-1000 ease-in-out transition-all max-md:text-8xl max-md:mx-auto text-center text-6xl text-slate-700 hover:text-[#D5C455]" >&lt;m.dev/&gt;</h1></a>
           </div>
         </div>
+<<<<<<< HEAD
         <div className="w-[100%]max-md:w-full  mt-[4vh] max-md:mt-[4vh] max-md:rounded-full max-md:bg-white mb-10 poppins-light uppercase max-md:flex-col flex justify-center items-center">
           <ul className=" max-md:p-4 items-center justify-center text-center mx-auto max-sm:text-xs max-md:w-full text-center max-sm:space-x-4 max-md:text-md text-xs flex text-slate-700 my-auto space-x-4 max-md:space-x-8"> 
             <li ><a className='ease-in-out duration-400 transition-all font-bold hover:text-slate-600' href="/about">About ME</a></li>
             <li ><a className='ease-in-out duration-400 transition-all font-bold hover:text-slate-600' href="/projects">Projects</a></li>
             <li ><a className='ease-in-out duration-400 transition-all font-bold hover:text-slate-600' href="/certificates">Certificates</a></li>
             <li ><a className='ease-in-out duration-400 transition-all font-bold hover:text-slate-600' href="/contact">Contact</a></li>
+=======
+        <div className="w-[100%]max-md:w-full mt-[4vh] max-md:mt-[4vh] max-md:rounded-full max-md:bg-white mb-10 poppins-light uppercase max-md:flex-col flex justify-center items-center">
+          <ul className=" max-md:p-4 max-md:w-full text-center max-md:text-md text-xs flex text-slate-700 my-auto space-x-4 max-md:space-x-8"> 
+            <li ><a className='ease-in-out duration-400 transition-all font-bold hover:text-slate-600' href="/my-portfolio/about">About ME</a></li>
+            <li ><a className='ease-in-out duration-400 transition-all font-bold hover:text-slate-600' href="/my-portfolio/projects">Projects</a></li>
+            <li ><a className='ease-in-out duration-400 transition-all font-bold hover:text-slate-600' href="/my-portfolio/certificates">Certificates</a></li>
+            <li ><a className='ease-in-out duration-400 transition-all font-bold hover:text-slate-600' href="/my-portfolio/contact">Contact</a></li>
+>>>>>>> 049a2e4bb3e3e82cedbdf9567c06ddb1c01083de
           </ul>
           <div className='flex max-md:hidden max-md:mt-[4vh] flex-row max-md:space-x-12 space-x-4 mx-8'>
             <a target='_blank' href='https://github.com/devmdave'><svg className='max-md:size-8' xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" viewBox="0 0 16 16">

@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className=" bg-white p-6">
       <div class="text-center">
         <a
-          href="/"
+          href="/my-portfolio"
           class="flex items-center justify-center mt-5 mb-5 text-2xl font-semibold text-gray-900"
         >
           <h1 className="nautigal-bold duration-1000 ease-in-out transition-all text-center text-6xl text-slate-700 hover:text-[#D5C455]">

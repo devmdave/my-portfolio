@@ -37,7 +37,7 @@ export default function Home() {
             {/* <h1 className="text-sm mt-[5vh] w-[50%] text-[#47411C] poppins-regular">
                 I’m a versatile developer skilled in HTML, CSS, and JavaScript. I work with modern frameworks like Next.js, Vue.js, and AngularJS. I craft web solutions that are fast, expressive, and user-centered. My experience spans Android app development and Python automation. I blend functionality with elegance to build tools that truly work
             </h1> */}
-            <div className="w-[50vw] max-md:hidden max-md:w-[80vw] max-md:mt-[2vh] max-md:mx-auto mt-[8vh] mb-8">
+            <div className="w-[30vw] mx-auto max-md:hidden max-md:w-[80vw] max-md:mt-[2vh] max-md:mx-auto mt-[8vh] mb-8">
               <div className="flex flex-col gap-4 ">
                 {/* Email Box */}
                 <a

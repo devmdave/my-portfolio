@@ -1,0 +1,18 @@
+[
+    {   
+        "id": 1,
+        "thumbnail": "https://example.com/thumbnail.jpg",
+        "title": "ISRO AI/ML Certificate",
+        "desc": "🛰️ ISRO AI/ML Workshop Participated in a specialized workshop hosted by ISRO, exploring cutting-edge applications of Artificial Intelligence and Machine Learning in space technology and data science. Strengthened my foundation in model design, algorithmic analysis, and deployment strategies tailored for real-world challenges in aerospace and geospatial contexts.",
+        "download_url": "https://drive.google.com/uc?export=download&id=161wCr0kh3wBc2qF5otWxxG3vUA7kdYNw",
+        "redirect_url": "https://drive.google.com/file/d/161wCr0kh3wBc2qF5otWxxG3vUA7kdYNw/preview"
+    },
+    {   
+        "id": 2,
+        "thumbnail": "https://example.com/thumbnail.jpg",
+        "title": "be10x AI/ML Certificate",
+        "desc": "🤖 be10x AI/ML Workshop Completed an interactive training under be10x, focusing on practical implementation of Artificial Intelligence and Machine Learning in modern digital ecosystems. Gained hands-on experience with essential tools and strategies for AI deployment, enhancing my understanding of real-world automation, data modeling, and intelligent systems.",
+        "download_url": "https://drive.google.com/uc?export=download&id=1NPQaDv38uy7lsfufEHxFMi0DaVgA9x7O",
+        "redirect_url": "https://drive.google.com/file/d/1NPQaDv38uy7lsfufEHxFMi0DaVgA9x7O/preview"
+    }
+]

@@ -16,7 +16,7 @@ export default function Home() {
           />
           {/* <div className="w-[80%] bg-[url('/./man.png')] mx-auto"></div> */}
         </div>
-        <div className="w-[50%] max-md:w-[90%] max-md:mx-auto text-center">
+        <div className="w-[50%] h-auto max-md:w-[90%] max-md:mx-auto text-center">
           <div className="mx-auto h-auto text-start max-md:text-center w-[100%]">
             <h1 className="text-md poppins-medium font-medium max-md:mt-[10vh] mt-[20vh] uppercase tracking-wider text-slate-500">
               this is me

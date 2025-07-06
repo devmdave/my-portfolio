@@ -25,7 +25,7 @@ export default function Home() {
               {/* <h1 className="text-4xl mt-[3vh] poppins-medium  text-[#adb5bd]"> I am</h1> */}
               <h1 className="hover:animate-pulse max-md:text-center ease-in-out duration-400 transition-all text-4xl max-md:mt-[1vh] mt-[3vh] poppins-bold text-slate-700">
                 {" "}
-                Madhav Dave😎
+                Madhav Dave
               </h1>
             </div>
             <h1 className="text-sm max-md:mt-[2vh] text-slate-700 uppercase poppins-regular">

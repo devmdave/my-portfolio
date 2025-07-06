@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className='bg-transparent mb-10 flex max-md:flex-col flex-row text-white p-4'>
         <div className="w-[60%] max-md:w-[100%] ">
           <div className='w-[100%] max-md:w-[100%] max-md:mx-auto'>
-            <a href='/'><h1 className="nautigal-bold duration-1000 ease-in-out transition-all max-md:text-8xl max-md:mx-auto text-center text-6xl text-slate-700 hover:text-[#D5C455]" >&lt;m.dev/&gt;</h1></a>
+            <a href='/my-portfolio'><h1 className="nautigal-bold duration-1000 ease-in-out transition-all max-md:text-8xl max-md:mx-auto text-center text-6xl text-slate-700 hover:text-[#D5C455]" >&lt;m.dev/&gt;</h1></a>
           </div>
         </div>
         <div className="w-[100%]max-md:w-full mt-[4vh] max-md:mt-[4vh] max-md:rounded-full max-md:bg-white mb-10 poppins-light uppercase max-md:flex-col flex justify-center items-center">

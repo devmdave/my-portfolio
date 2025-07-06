@@ -16,10 +16,10 @@ const Navbar = () => {
         </div>
         <div className="w-[100%]max-md:w-full mt-[4vh] max-md:mt-[4vh] max-md:rounded-full max-md:bg-white mb-10 poppins-light uppercase max-md:flex-col flex justify-center items-center">
           <ul className=" max-md:p-4 max-md:w-full text-center max-md:text-md text-xs flex text-slate-700 my-auto space-x-4 max-md:space-x-8"> 
-            <li ><a className='ease-in-out duration-400 transition-all font-bold hover:text-slate-600' href="my-portfolio/about">About ME</a></li>
-            <li ><a className='ease-in-out duration-400 transition-all font-bold hover:text-slate-600' href="my-portfolio/projects">Projects</a></li>
-            <li ><a className='ease-in-out duration-400 transition-all font-bold hover:text-slate-600' href="my-portfolio/certificates">Certificates</a></li>
-            <li ><a className='ease-in-out duration-400 transition-all font-bold hover:text-slate-600' href="my-portfolio/contact">Contact</a></li>
+            <li ><a className='ease-in-out duration-400 transition-all font-bold hover:text-slate-600' href="/about">About ME</a></li>
+            <li ><a className='ease-in-out duration-400 transition-all font-bold hover:text-slate-600' href="/projects">Projects</a></li>
+            <li ><a className='ease-in-out duration-400 transition-all font-bold hover:text-slate-600' href="/certificates">Certificates</a></li>
+            <li ><a className='ease-in-out duration-400 transition-all font-bold hover:text-slate-600' href="/contact">Contact</a></li>
           </ul>
           <div className='flex max-md:hidden max-md:mt-[4vh] flex-row max-md:space-x-12 space-x-4 mx-8'>
             <a target='_blank' href='https://github.com/devmdave'><svg className='max-md:size-8' xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" viewBox="0 0 16 16">

@@ -1,7 +1,8 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import Footer from "../components/footer";
 import Sidebar from "../components/Sidebar";
-import ScrollToTopButton from "../components/ScrollToTopButton";
+
+
 
 export default function Document() {
   return (

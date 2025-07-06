@@ -14,8 +14,8 @@ const Navbar = () => {
             <a href='/'><h1 className="nautigal-bold duration-1000 ease-in-out transition-all max-md:text-8xl max-md:mx-auto text-center text-6xl text-slate-700 hover:text-[#D5C455]" >&lt;m.dev/&gt;</h1></a>
           </div>
         </div>
-        <div className="w-[100%]max-md:w-full mt-[4vh] max-md:mt-[4vh] max-md:rounded-full max-md:bg-white mb-10 poppins-light uppercase max-md:flex-col flex justify-center items-center">
-          <ul className=" max-md:p-4 max-md:w-full text-center max-md:text-md text-xs flex text-slate-700 my-auto space-x-4 max-md:space-x-8"> 
+        <div className="w-[100%]max-md:w-full  mt-[4vh] max-md:mt-[4vh] max-md:rounded-full max-md:bg-white mb-10 poppins-light uppercase max-md:flex-col flex justify-center items-center">
+          <ul className=" max-md:p-4 items-center justify-center text-center mx-auto max-sm:text-xs max-md:w-full text-center max-sm:space-x-4 max-md:text-md text-xs flex text-slate-700 my-auto space-x-4 max-md:space-x-8"> 
             <li ><a className='ease-in-out duration-400 transition-all font-bold hover:text-slate-600' href="/about">About ME</a></li>
             <li ><a className='ease-in-out duration-400 transition-all font-bold hover:text-slate-600' href="/projects">Projects</a></li>
             <li ><a className='ease-in-out duration-400 transition-all font-bold hover:text-slate-600' href="/certificates">Certificates</a></li>

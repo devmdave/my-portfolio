@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <section className="bg-no-repeat bg-cover bg-center bg-[url('https://i.ibb.co/fdLfTn1H/3d-background-with-white-cubes.jpg')]">
       <Navbar></Navbar>
-      <section className="h-[100vh] max-md:flex-col flex  flex-row">
+      <section className="h-auto max-md:flex-col flex  flex-row">
         <div className="w-[50%] max-md:w-full  text-center">
           <Image
             src={man}
@@ -17,7 +17,7 @@ export default function Home() {
           {/* <div className="w-[80%] bg-[url('/./man.png')] mx-auto"></div> */}
         </div>
         <div className="w-[50%] max-md:w-[90%] max-md:mx-auto text-center">
-          <div className="mx-auto text-start max-md:text-center w-[100%]">
+          <div className="mx-auto h-auto text-start max-md:text-center w-[100%]">
             <h1 className="text-md poppins-medium font-medium max-md:mt-[10vh] mt-[20vh] uppercase tracking-wider text-slate-500">
               this is me
             </h1>
@@ -31,13 +31,13 @@ export default function Home() {
             <h1 className="text-sm max-md:mt-[2vh] text-slate-700 uppercase poppins-regular">
               Software Engineer | Web Developer | Tech Enthusiast
             </h1>
-            <button className="animate-bounce max-md:mx-auto max-md:mt-[6vh] max-md:w-full mt-8 px-8 py-3 rounded-full bg-gradient-to-r from-gray-500 to-slate-700 text-white font-bold shadow-lg hover:from-slate-600 hover:to-gray-700 transition-all duration-300">
+            <button className="h-auto animate-bounce max-md:mx-auto max-md:mt-[6vh] max-md:w-full mt-8 px-8 py-3 rounded-full bg-gradient-to-r from-gray-500 to-slate-700 text-white font-bold shadow-lg hover:from-slate-600 hover:to-gray-700 transition-all duration-300">
               Hire Me
             </button>
             {/* <h1 className="text-sm mt-[5vh] w-[50%] text-[#47411C] poppins-regular">
                 I’m a versatile developer skilled in HTML, CSS, and JavaScript. I work with modern frameworks like Next.js, Vue.js, and AngularJS. I craft web solutions that are fast, expressive, and user-centered. My experience spans Android app development and Python automation. I blend functionality with elegance to build tools that truly work
             </h1> */}
-            <div className="w-[50vw] max-md:hidden max-md:w-[80vw] max-md:mt-[2vh] max-md:mx-auto mt-[8vh] mb-8">
+            <div className="w-[30vw] max-md:hidden max-md:w-[80vw] max-md:mt-[2vh] max-md:mx-auto mt-[8vh] mb-8">
               <div className="flex flex-col gap-4 ">
                 {/* Email Box */}
                 <a

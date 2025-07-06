@@ -15,7 +15,6 @@ export default function Document() {
 
       <body className="bg-slate-100" >
         <Sidebar></Sidebar>
-        <ScrollToTopButton></ScrollToTopButton>
         <Main />
         <NextScript />
       </body>

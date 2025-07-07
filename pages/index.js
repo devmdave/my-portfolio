@@ -91,7 +91,7 @@ export default function Home() {
         className="bg-slate-50 py-16 px-4 flex flex-row max-md:flex-col items-center"
         id="about"
       >
-        <div className="bg-slate-50 mx-8 shadow-lg rounded-2xl max-md:h-auto h-[100vh] p-10 max-md:w-full w-[40vw] text-center">
+        <div className="bg-white mx-8 shadow-lg rounded-2xl max-md:h-auto h-[100vh] p-10 max-md:w-full w-[40vw] text-center">
           <h2 className="text-3xl font-bold text-slate-700 mb-10 uppercase tracking-wider">
             what i do?
           </h2>
@@ -111,7 +111,7 @@ export default function Home() {
             automation and AI tools.
           </p>
         </div>
-        <div className="h-auto max-md:h-auto max-md:mt-[5vh] font-bold poppins-regular bg-slate-50 flex mx-8 shadow-lg rounded-2xl  p-10 max-md:w-full w-[40vw] flex-col">
+        <div className="h-auto max-md:h-auto max-md:mt-[5vh] font-bold poppins-regular bg-white flex mx-8 shadow-lg rounded-2xl  p-10 max-md:w-full w-[40vw] flex-col">
           <h2 className="text-3xl poppins-bold text-center font-bold text-slate-700 mb-10 uppercase tracking-wider">
             Tech Fluency
           </h2>

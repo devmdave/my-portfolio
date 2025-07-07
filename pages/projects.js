@@ -5,13 +5,13 @@ import projects from "../data/projects.json"; // Assuming you have a projects.js
 export default function Projects() {
   return (
     <>
-      <section className="bg-slate-100 flex mb-30 flex-col">
+      <section className="flex flex-col">
         <Navbar />
 
         <h2 className="text-center text-3xl font-bold text-slate-700 mb-10 uppercase tracking-wider animate-fadeInUp">
           Projects
         </h2>
-        <div className=" max-md:w-[80vw] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-full max-w-6xl">
+        <div className="mb-30 max-md:w-[80vw] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-full max-w-6xl">
           {projects.map((project, idx) => (
             <div
               key={project.id}

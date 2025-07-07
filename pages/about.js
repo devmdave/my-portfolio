@@ -4,7 +4,7 @@ import Navbar from "../components/navbar";
 const About = () => {
   return (
     <>
-    <section className="bg-slate-100 flex flex-col">
+    <section className="flex flex-col">
       <Navbar></Navbar>
 
       <h2 className="text-3xl mb-10 text-center font-bold text-slate-700 mb-6 uppercase tracking-wider text-center">

@@ -5,7 +5,7 @@ import techstacky from "../data/techstack.json"; // Assuming you have a techstac
 
 export default function Home() {
   return (
-    <section className="bg-no-repeat bg-cover bg-center bg-[url('https://i.ibb.co/fdLfTn1H/3d-background-with-white-cubes.jpg')]">
+    <section className="">
       <Navbar></Navbar>
       <section className="h-auto max-md:flex-col flex  flex-row">
         <div className="w-[50%] max-md:w-full  text-center">

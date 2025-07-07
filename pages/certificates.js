@@ -4,10 +4,10 @@ import Navbar from '../components/navbar';
 export default function Certificates() {
   return (
     <>
-    <section className="bg-slate-100 h-auto flex flex-col mb-30">
+    <section className="h-auto flex flex-col">
       <Navbar></Navbar>
       <h2 className="text-center text-3xl font-bold text-slate-700 mb-10 uppercase tracking-wider">Certificates</h2>
-      <div className="flex mx-auto max-md:w-[80vw] h-auto flex-col gap-8 w-full max-w-2xl">
+      <div className="mb-30 flex mx-auto max-md:w-[80vw] h-auto flex-col gap-8 w-full max-w-2xl">
         {certificates.map((cert) => (
           <div key={cert.id} className="bg-white shadow-lg rounded-2xl p-6 flex flex-col md:flex-row items-center">
             <div className="w-full md:w-1/2 h-64 mb-4 md:mb-0 md:mr-6">

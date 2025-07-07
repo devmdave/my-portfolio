@@ -12,10 +12,10 @@ export default function Contact() {
 
   return (
     <>
-      <section className="bg-slate-100 mb-30 flex flex-col">
+      <section className="flex flex-col">
         <Navbar />
 
-        <div className="mx-auto animate-fadeInUp max-md:h-auto max-md:w-[80vw] bg-white shadow-2xl rounded-2xl max-w-lg w-full p-10 flex flex-col items-center">
+        <div className="mb-30 mx-auto animate-fadeInUp max-md:h-auto max-md:w-[80vw] bg-white shadow-2xl rounded-2xl max-w-lg w-full p-10 flex flex-col items-center">
           <h2 className="text-3xl font-bold text-slate-700 mb-2 uppercase tracking-wider text-center">
             Contact Me
           </h2>

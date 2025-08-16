@@ -86,7 +86,7 @@ const Navbar = () => {
             </svg>
           </a>
 
-          <a target="_blank" href="">
+          <a target="_blank" href="https://www.linkedin.com/in/madhav-dave-52b552379/">
             <svg
               className="max-md:size-8"
               xmlns="http://www.w3.org/2000/svg"

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import man from "./man.png";
+import man from "../public/images/man.png";
 import Navbar from "../components/navbar";
 import techstacky from "../data/techstack.json"; // Assuming you have a techstack.json file in data folder
 
@@ -12,7 +12,7 @@ export default function Home() {
           <Image
             src={man}
             alt="Hero Image"
-            className="ease-in-out hover:scale-[0.5] duration-1000 transition-all mx-auto bg-cover w-auto h-full object-cover"
+            className="ease-in-out duration-1000 transition-all mx-auto bg-cover w-auto h-full object-cover"
           />
           {/* <div className="w-[80%] bg-[url('/./man.png')] mx-auto"></div> */}
         </div>
@@ -28,8 +28,8 @@ export default function Home() {
                 Madhav Dave
               </h1>
             </div>
-            <h1 className="text-sm max-md:mt-[2vh] text-slate-700 uppercase poppins-regular">
-              Software Engineer | Web Developer | Tech Enthusiast
+            <h1 className="text-xs max-md:mt-[2vh] text-slate-700 uppercase poppins-regular">
+              ECE Student | Embedded Systems, Machine Learning & Computer Vision | Web Developer
             </h1>
             <button className="h-auto uppercase animate-bounce max-md:mx-auto max-md:mt-[6vh] max-md:w-full mt-8 px-8 py-3 rounded-full bg-gradient-to-r from-gray-500 to-slate-700 text-white font-bold shadow-lg hover:from-slate-600 hover:to-gray-700 transition-all duration-300">
               download cv
@@ -100,9 +100,8 @@ export default function Home() {
             <span className="font-bold text-4xl nautigal-bold text-slate-800">
               Madhav Dave
             </span>{" "}
-            — a passionate developer who loves turning coffee into code! I
-            specialize in building modern, responsive web applications using
-            Next.js, React, and Tailwind CSS.
+            — a passionate developer who loves turning coffee into code! 
+            I build intelligent, user-friendly systems that bridge the gap between hardware and software. As a web developer and embedded engineer, I craft responsive interfaces and automation tools that feel intuitive and perform reliably. My work blends machine learning, computer vision, and real-time control to create solutions that are not just functional—but delightful to use.
           </p>
           <p className="text-base poppins-light text-slate-500">
             I enjoy solving problems, learning new technologies, and

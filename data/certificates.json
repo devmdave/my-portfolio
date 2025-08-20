@@ -14,5 +14,13 @@
         "desc": "🤖 be10x AI/ML Workshop Completed an interactive training under be10x, focusing on practical implementation of Artificial Intelligence and Machine Learning in modern digital ecosystems. Gained hands-on experience with essential tools and strategies for AI deployment, enhancing my understanding of real-world automation, data modeling, and intelligent systems.",
         "download_url": "https://drive.google.com/uc?export=download&id=1NPQaDv38uy7lsfufEHxFMi0DaVgA9x7O",
         "redirect_url": "https://drive.google.com/file/d/1NPQaDv38uy7lsfufEHxFMi0DaVgA9x7O/preview"
+    },
+     {   
+        "id": 3,
+        "thumbnail": "https://example.com/thumbnail.jpg",
+        "title": "GenAI Data Analytics – Tata Job Simulation Certificate",
+        "desc": "Completed a hands-on simulation focused on AI-powered data analytics, issued by Tata via Forage. Covered key tasks including exploratory data analysis, risk profiling, delinquency prediction, and crafting business reports for collections strategy. Demonstrated practical skills in implementing AI-driven decision-making for real-world financial operations.",
+        "download_url": "https://drive.google.com/uc?export=download&id=1uxcVFAqiNRk1QZvaSPIObj2xKA1B4Y2I",
+        "redirect_url": "https://drive.google.com/file/d/1uxcVFAqiNRk1QZvaSPIObj2xKA1B4Y2I/preview"
     }
 ]

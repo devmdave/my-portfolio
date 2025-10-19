@@ -8,12 +8,9 @@ Sections: Neon Header | Live Preview | Tech Stack | CI/CD | Contact
 
 <!-- 🔥 Neon Animated Header -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3000&pause=800&color=00FFF5&center=true&vCenter=true&width=800&lines=💫+DevMDave's+Portfolio;⚡+Next.js+%7C+Tailwind+%7C+CI%2FCD+Magic;🚀+TokyoNight+Edition" alt="Neon Header" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3000&pause=800&color=00FFF5&center=true&vCenter=true&width=800&lines=💫+DevMDave's+Portfolio;⚡+Next.js+%7C+Tailwind+%7C+CI%2FCD+Magic;" alt="Neon Header" />
 </p>
 
-<p align="center">
-  <img src="https://i.imgur.com/sq6D7Dk.gif" width="700" height="6" alt="neon divider"/>
-</p>
 
 <!-- 🚀 Live Preview Button -->
 <p align="center">

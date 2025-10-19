@@ -16,7 +16,7 @@ it will display at the top.
    ========================= 
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3200&pause=800&color=00FFF5&center=true&vCenter=true&width=780&lines=My+Portfolio+Dashboard;+Built+with+Next.js+%E2%80%A2+Tailwind+CSS+%E2%80%A2" alt="typing" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3200&pause=800&color=00FFF5&center=true&vCenter=true&width=780&lines=My+Portfolio+Dashboard;+Built+with+Next.js+%E2%80%A2+Tailwind+CSS" alt="typing" />
 </p>
 
 <p align="center">

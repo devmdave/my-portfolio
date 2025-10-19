@@ -13,14 +13,10 @@ it will display at the top.
 <!-- =========================
    HERO / ANIMATED HEADER
    (Typing SVG + subtle neon divider)
-   ========================= -->
-<p align="center">
-  <!-- Local holographic logo (if you saved assets/logo.svg) -->
-  <img src="assets/logo.svg" alt="DEVMDAVE holographic logo" width="760" />
-</p>
+   ========================= 
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3200&pause=800&color=00FFF5&center=true&vCenter=true&width=780&lines=My+Portfolio+Dashboard;+Built+with+Next.js+%E2%80%A2+Tailwind+CSS+%E2%80%A2+Crafted+in+TokyoNight" alt="typing" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3200&pause=800&color=00FFF5&center=true&vCenter=true&width=780&lines=My+Portfolio+Dashboard;+Built+with+Next.js+%E2%80%A2+Tailwind+CSS+%E2%80%A2" alt="typing" />
 </p>
 
 <p align="center">
@@ -61,51 +57,6 @@ CI/CD: GitHub Actions -> deploys to GitHub Pages (or change to Vercel)
 
 ---
 
-## 🎯 Featured Sections of the Portfolio
-
-### 🔸 Hero / Landing — Neon introduction
-- Animated header, hero shots, and quick CTA (Visit my site).
-- Built with a responsive Next.js + Tailwind layout.
-
-### 🔸 Projects Gallery — Selected works
-- Project cards with animated preview GIFs (hover-ready).
-- Each card links to the project repo + live demo.
-
-### 🔸 Architecture & Tools
-- Short schematic of the build (Next.js pages → Tailwind components).
-- CI via GitHub Actions (deploy pipeline).
-
-### 🔸 Contact & CTA
-- Email / LinkedIn / GitHub quick links.
-- "Hire / Collaborate" button.
-
----
-
-## 🖼️ Project Showcase (visual cards)
-<p align="center">
-  <!-- three sample project banners (replace GIFs with your project's preview gifs) -->
-  <a href="https://github.com/devmdave/Smart-Irrigation-System" target="_blank">
-    <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="280" alt="Smart Irrigation preview" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/devmdave/FPGA-CPU-Design" target="_blank">
-    <img src="https://media.giphy.com/media/l4FGuhL4U2WyjdkaY/giphy.gif" width="280" alt="FPGA CPU preview" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/devmdave/VLSI-EDA-Toolkit" target="_blank">
-    <img src="https://media.giphy.com/media/26u4b45b8KlgAB7iM/giphy.gif" width="280" alt="VLSI EDA preview" />
-  </a>
-</p>
-
-```text
-Smart-Irrigation-System  — IoT + ML for farming (link above)
-FPGA-CPU-Design         — Soft-core CPU on FPGA boards
-VLSI-EDA-Toolkit        — Automation for RTL & P&R flows
-```
-
-> Tip: Replace each demo GIF above with an optimized 800×200 GIF from your `assets/` folder for a more personalized look.
-
----
 
 ## 📊 Repo Analytics (TokyoNight)
 <p align="center">
@@ -145,9 +96,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out  # or .next if using export
 ```
-
-> Adjust the workflow above if you deploy to Vercel or Netlify instead of GitHub Pages.
-
 ---
 
 ## ⚡ Accessibility & Performance Notes
@@ -166,17 +114,6 @@ jobs:
 
 ---
 
-## 🪄 Footer — Visual Outro
-<p align="center">
-  <img src="https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif" width="760" alt="outro wave" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=2500&pause=800&color=00FFF5&center=true&vCenter=true&width=660&lines=Thanks+for+visiting+my+portfolio!;Explore+the+projects+or+reach+out+to+collaborate+%F0%9F%91%8B" alt="thanks" />
-</p>
-
----
-
 ## ✅ Setup checklist (how to use this README)
 ```text
 1) Place custom GIFs and assets under assets/ (e.g., assets/header.gif, assets/project1.gif)
@@ -187,11 +124,3 @@ jobs:
 ```
 
 ---
-
-## 🔁 Want me to personalize further?
-I can:
-- 🔹 Generate 3 custom 800×200 animated project banners (TokyoNight style)
-- 🔹 Export the Lottie animations you liked as optimized GIFs and swap placeholders
-- 🔹 Produce an animated "Visit Site" hover badge (SVG->GIF) for the live button
-
-To proceed with any of the above, tell me which enhancement you want first (I recommend: **custom project banners**). 👇

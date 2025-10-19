@@ -7,11 +7,7 @@ Minimal, Animated, and Professional GitHub-Safe README
 
 <!-- 🧠 Header Banner -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=2800&pause=900&color=00FFF5&center=true&vCenter=true&width=800&lines=💻+DevMDave's+Portfolio+Repository;⚙️+Next.js+%7C+Tailwind+CSS+%7C+CI%2FCD+Workflow;🛰️+TokyoNight+Tech+Dashboard+Mode" alt="typing animation" />
-</p>
-
-<p align="center">
-  <img src="https://i.imgur.com/sq6D7Dk.gif" width="700" height="6" alt="neon divider"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=2800&pause=900&color=00FFF5&center=true&vCenter=true&width=800&lines=💻+DevMDave's+Portfolio+Repository;⚙️+Next.js+%7C+Tailwind+CSS+%7C+CI%2FCD+Workflow;" alt="typing animation" />
 </p>
 
 ---

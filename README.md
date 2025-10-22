@@ -112,11 +112,6 @@ jobs:
 </p>
 
 ---
-
-<p align="center">
-  <img src="https://i.imgur.com/sq6D7Dk.gif" width="700" height="6" alt="neon divider"/>
-</p>
-
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=2500&pause=800&color=00FFF5&center=true&vCenter=true&width=660&lines=System+Status:+STABLE;Awaiting+Next+Deployment...+🛰️;Thanks+for+visiting+DevMDave's+Dashboard!+⚡" alt="outro typing" />
 </p>

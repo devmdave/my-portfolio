@@ -46,11 +46,10 @@ Minimal, Animated, and Professional GitHub-Safe README
 
 ---
 
-## ⚡ Skill Level Matrix
-<!-- 🌌 TokyoNight Tech Skill Progress Bars (Graphical & Colorful) -->
+<!-- 🌌 TokyoNight Style Graphical Progress Bars -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3000&pause=700&color=00FFF5&center=true&vCenter=true&width=550&lines=⚙️+Tech+Skill+Progress;Next.js+%7C+Tailwind+CSS+%7C+GitHub+Actions+%7C+JavaScript" alt="Skill Header"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=2800&pause=800&color=00FFF5&center=true&vCenter=true&width=500&lines=⚙️+Tech+Skill+Progress+Overview" alt="Skill Header"/>
 </p>
 
 <p align="center">
@@ -59,38 +58,51 @@ Minimal, Animated, and Professional GitHub-Safe README
 
 <table align="center" width="100%">
   <tr>
-    <td align="left" width="200"><b>⚡ Next.js</b></td>
-    <td align="left" width="500">
-      <img src="https://img.shields.io/badge/-90%25-000000?style=for-the-badge&labelColor=1A1B27&color=00FFF5">
-      <img src="https://img.shields.io/badge/█████████▱-00FFF5?style=flat-square&labelColor=1A1B27&color=00FFF5" width="320">
+    <td width="180"><b>⚡ Next.js</b></td>
+    <td>
+      <div style="background-color:#1a1b27; border-radius:10px; width:100%; height:20px;">
+        <div style="background:linear-gradient(90deg, #00FFF5 0%, #00B8D4 90%); width:90%; height:20px; border-radius:10px;"></div>
+      </div>
     </td>
+    <td width="60" align="right"><b>90%</b></td>
   </tr>
+
+  <tr><td colspan="3"><br/></td></tr>
+
   <tr>
-    <td align="left"><b>🎨 Tailwind CSS</b></td>
-    <td align="left">
-      <img src="https://img.shields.io/badge/-85%25-000000?style=for-the-badge&labelColor=1A1B27&color=8B5CF6">
-      <img src="https://img.shields.io/badge/████████▱▱-8B5CF6?style=flat-square&labelColor=1A1B27&color=8B5CF6" width="300">
+    <td><b>🎨 Tailwind CSS</b></td>
+    <td>
+      <div style="background-color:#1a1b27; border-radius:10px; width:100%; height:20px;">
+        <div style="background:linear-gradient(90deg, #8B5CF6 0%, #6366F1 85%); width:85%; height:20px; border-radius:10px;"></div>
+      </div>
     </td>
+    <td align="right"><b>85%</b></td>
   </tr>
+
+  <tr><td colspan="3"><br/></td></tr>
+
   <tr>
-    <td align="left"><b>⚙️ GitHub Actions</b></td>
-    <td align="left">
-      <img src="https://img.shields.io/badge/-75%25-000000?style=for-the-badge&labelColor=1A1B27&color=3B82F6">
-      <img src="https://img.shields.io/badge/███████▱▱▱-3B82F6?style=flat-square&labelColor=1A1B27&color=3B82F6" width="260">
+    <td><b>⚙️ GitHub Actions</b></td>
+    <td>
+      <div style="background-color:#1a1b27; border-radius:10px; width:100%; height:20px;">
+        <div style="background:linear-gradient(90deg, #3B82F6 0%, #2563EB 75%); width:75%; height:20px; border-radius:10px;"></div>
+      </div>
     </td>
+    <td align="right"><b>75%</b></td>
   </tr>
+
+  <tr><td colspan="3"><br/></td></tr>
+
   <tr>
-    <td align="left"><b>💻 JavaScript</b></td>
-    <td align="left">
-      <img src="https://img.shields.io/badge/-80%25-000000?style=for-the-badge&labelColor=1A1B27&color=FACC15">
-      <img src="https://img.shields.io/badge/████████▱▱-FACC15?style=flat-square&labelColor=1A1B27&color=FACC15" width="290">
+    <td><b>💻 JavaScript</b></td>
+    <td>
+      <div style="background-color:#1a1b27; border-radius:10px; width:100%; height:20px;">
+        <div style="background:linear-gradient(90deg, #FACC15 0%, #FBBF24 80%); width:80%; height:20px; border-radius:10px;"></div>
+      </div>
     </td>
+    <td align="right"><b>80%</b></td>
   </tr>
 </table>
-
-<p align="center">
-  <img src="https://i.imgur.com/sq6D7Dk.gif" width="780" height="6" alt="divider"/>
-</p>
 
 ---
 

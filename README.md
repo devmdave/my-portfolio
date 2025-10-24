@@ -46,34 +46,34 @@ Minimal, Animated, and Professional GitHub-Safe README
 
 ---
 
-<<!-- 🌌 Graphical Tech Skill Progress Bars (Fully GitHub-safe) -->
+<<!-- 🎨 Fully Graphical, GitHub-Safe Progress Bars (Static SVGs) -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=2500&pause=800&color=00FFF5&center=true&vCenter=true&width=520&lines=⚙️+Tech+Skill+Progress+Overview" alt="Skill Header"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=2800&pause=800&color=00FFF5&center=true&vCenter=true&width=500&lines=⚙️+Tech+Skill+Progress" alt="Skill Header"/>
 </p>
 
 <p align="center">
   <img src="https://i.imgur.com/sq6D7Dk.gif" width="780" height="6" alt="divider"/>
 </p>
 
-<p align="center"><b>⚡ Next.js</b></p>
 <p align="center">
-  <img src="https://progress-bar.dev/90/?title=Next.js&width=500&color=00FFF5&suffix=%25&style=flat-square" alt="Next.js Progress"/>
+  <img src="https://svgshare.com/i/19vU.svg" width="500" alt="Next.js 90%">
+  <br><b>⚡ Next.js — 90%</b>
 </p>
 
-<p align="center"><b>🎨 Tailwind CSS</b></p>
 <p align="center">
-  <img src="https://progress-bar.dev/85/?title=Tailwind%20CSS&width=500&color=8B5CF6&suffix=%25&style=flat-square" alt="Tailwind Progress"/>
+  <img src="https://svgshare.com/i/19vZ.svg" width="500" alt="Tailwind 85%">
+  <br><b>🎨 Tailwind CSS — 85%</b>
 </p>
 
-<p align="center"><b>⚙️ GitHub Actions</b></p>
 <p align="center">
-  <img src="https://progress-bar.dev/75/?title=GitHub%20Actions&width=500&color=3B82F6&suffix=%25&style=flat-square" alt="GitHub Actions Progress"/>
+  <img src="https://svgshare.com/i/19vb.svg" width="500" alt="GitHub Actions 75%">
+  <br><b>⚙️ GitHub Actions — 75%</b>
 </p>
 
-<p align="center"><b>💻 JavaScript</b></p>
 <p align="center">
-  <img src="https://progress-bar.dev/80/?title=JavaScript&width=500&color=FACC15&suffix=%25&style=flat-square" alt="JavaScript Progress"/>
+  <img src="https://svgshare.com/i/19vd.svg" width="500" alt="JavaScript 80%">
+  <br><b>💻 JavaScript — 80%</b>
 </p>
 
 <p align="center">

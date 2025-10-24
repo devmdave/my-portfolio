@@ -86,10 +86,6 @@ Minimal, Animated, and Professional GitHub-Safe README
   </tr>
 </table>
 
-<p align="center">
-  <img src="https://i.imgur.com/sq6D7Dk.gif" width="780" height="6" alt="divider"/>
-</p>
----
 
 ## 🔄 CI/CD Pipeline Visualization
 <p align="center">

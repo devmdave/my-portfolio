@@ -45,36 +45,46 @@ Minimal, Animated, and Professional GitHub-Safe README
 ```
 
 ---
-
-<<!-- 🎨 Fully Graphical, GitHub-Safe Progress Bars (Static SVGs) -->
+<!-- 🌌 TokyoNight Tech Skill Progress Bars (Graphical & Colorful) -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=2800&pause=800&color=00FFF5&center=true&vCenter=true&width=500&lines=⚙️+Tech+Skill+Progress" alt="Skill Header"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3000&pause=700&color=00FFF5&center=true&vCenter=true&width=550&lines=⚙️+Tech+Skill+Progress;Next.js+%7C+Tailwind+CSS+%7C+GitHub+Actions+%7C+JavaScript" alt="Skill Header"/>
 </p>
 
 <p align="center">
   <img src="https://i.imgur.com/sq6D7Dk.gif" width="780" height="6" alt="divider"/>
 </p>
 
-<p align="center">
-  <img src="https://svgshare.com/i/19vU.svg" width="500" alt="Next.js 90%">
-  <br><b>⚡ Next.js — 90%</b>
-</p>
-
-<p align="center">
-  <img src="https://svgshare.com/i/19vZ.svg" width="500" alt="Tailwind 85%">
-  <br><b>🎨 Tailwind CSS — 85%</b>
-</p>
-
-<p align="center">
-  <img src="https://svgshare.com/i/19vb.svg" width="500" alt="GitHub Actions 75%">
-  <br><b>⚙️ GitHub Actions — 75%</b>
-</p>
-
-<p align="center">
-  <img src="https://svgshare.com/i/19vd.svg" width="500" alt="JavaScript 80%">
-  <br><b>💻 JavaScript — 80%</b>
-</p>
+<table align="center" width="100%">
+  <tr>
+    <td align="left" width="200"><b>⚡ Next.js</b></td>
+    <td align="left" width="500">
+      <img src="https://img.shields.io/badge/-90%25-000000?style=for-the-badge&labelColor=1A1B27&color=00FFF5">
+      <img src="https://img.shields.io/badge/█████████▱-00FFF5?style=flat-square&labelColor=1A1B27&color=00FFF5" width="320">
+    </td>
+  </tr>
+  <tr>
+    <td align="left"><b>🎨 Tailwind CSS</b></td>
+    <td align="left">
+      <img src="https://img.shields.io/badge/-85%25-000000?style=for-the-badge&labelColor=1A1B27&color=8B5CF6">
+      <img src="https://img.shields.io/badge/████████▱▱-8B5CF6?style=flat-square&labelColor=1A1B27&color=8B5CF6" width="300">
+    </td>
+  </tr>
+  <tr>
+    <td align="left"><b>⚙️ GitHub Actions</b></td>
+    <td align="left">
+      <img src="https://img.shields.io/badge/-75%25-000000?style=for-the-badge&labelColor=1A1B27&color=3B82F6">
+      <img src="https://img.shields.io/badge/███████▱▱▱-3B82F6?style=flat-square&labelColor=1A1B27&color=3B82F6" width="260">
+    </td>
+  </tr>
+  <tr>
+    <td align="left"><b>💻 JavaScript</b></td>
+    <td align="left">
+      <img src="https://img.shields.io/badge/-80%25-000000?style=for-the-badge&labelColor=1A1B27&color=FACC15">
+      <img src="https://img.shields.io/badge/████████▱▱-FACC15?style=flat-square&labelColor=1A1B27&color=FACC15" width="290">
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="https://i.imgur.com/sq6D7Dk.gif" width="780" height="6" alt="divider"/>

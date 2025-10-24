@@ -89,8 +89,6 @@ Minimal, Animated, and Professional GitHub-Safe README
 
 ## 🔄 CI/CD Pipeline Visualization
 <p align="center">
-  <img src="https://media.giphy.com/media/Y3xkaMlf1YxgA9aJj3/giphy.gif" width="500" alt="CI/CD animation"/>
-</p>
 
 ```yaml
 # .github/workflows/deploy.yml

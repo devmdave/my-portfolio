@@ -47,13 +47,50 @@ Minimal, Animated, and Professional GitHub-Safe README
 ---
 
 ## ⚡ Skill Level Matrix
-```text
-🧠 Next.js          ▰▰▰▰▰▰▰▰▱▱   80%
-🎨 Tailwind CSS      ▰▰▰▰▰▰▰▰▰▰   100%
-⚙️ GitHub Actions    ▰▰▰▰▰▰▰▱▱▱   70%
-🧩 JavaScript        ▰▰▰▰▰▰▰▰▱▱   85%
-```
 
+<table align="center">
+  <tr>
+    <th colspan="2" align="center">
+      <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=26&duration=2500&pause=800&color=00FFF5&center=true&vCenter=true&width=435&lines=🚀+Tech+Proficiency+Dashboard" alt="Tech Progress Header"/>
+    </th>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+    </td>
+    <td width="400">
+      <img src="https://progress-bar.dev/90/?title=90%25&width=400&color=00FFF5&suffix=+" alt="Next.js Progress"/>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Tailwind%20CSS-0EA5E9?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
+    </td>
+    <td width="400">
+      <img src="https://progress-bar.dev/85/?title=85%25&width=400&color=7F5AF0&suffix=+" alt="Tailwind CSS Progress"/>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
+    </td>
+    <td width="400">
+      <img src="https://progress-bar.dev/75/?title=75%25&width=400&color=FF77A9&suffix=+" alt="GitHub Actions Progress"/>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" alt="JavaScript"/>
+    </td>
+    <td width="400">
+      <img src="https://progress-bar.dev/80/?title=80%25&width=400&color=FFD700&suffix=+" alt="JavaScript Progress"/>
+    </td>
+  </tr>
+</table>
 ---
 
 ## 🔄 CI/CD Pipeline Visualization

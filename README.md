@@ -46,64 +46,39 @@ Minimal, Animated, and Professional GitHub-Safe README
 
 ---
 
-<!-- 🌌 TokyoNight Style Graphical Progress Bars -->
+<<!-- 🌌 Graphical Tech Skill Progress Bars (Fully GitHub-safe) -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=2800&pause=800&color=00FFF5&center=true&vCenter=true&width=500&lines=⚙️+Tech+Skill+Progress+Overview" alt="Skill Header"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=2500&pause=800&color=00FFF5&center=true&vCenter=true&width=520&lines=⚙️+Tech+Skill+Progress+Overview" alt="Skill Header"/>
 </p>
 
 <p align="center">
   <img src="https://i.imgur.com/sq6D7Dk.gif" width="780" height="6" alt="divider"/>
 </p>
 
-<table align="center" width="100%">
-  <tr>
-    <td width="180"><b>⚡ Next.js</b></td>
-    <td>
-      <div style="background-color:#1a1b27; border-radius:10px; width:100%; height:20px;">
-        <div style="background:linear-gradient(90deg, #00FFF5 0%, #00B8D4 90%); width:90%; height:20px; border-radius:10px;"></div>
-      </div>
-    </td>
-    <td width="60" align="right"><b>90%</b></td>
-  </tr>
+<p align="center"><b>⚡ Next.js</b></p>
+<p align="center">
+  <img src="https://progress-bar.dev/90/?title=Next.js&width=500&color=00FFF5&suffix=%25&style=flat-square" alt="Next.js Progress"/>
+</p>
 
-  <tr><td colspan="3"><br/></td></tr>
+<p align="center"><b>🎨 Tailwind CSS</b></p>
+<p align="center">
+  <img src="https://progress-bar.dev/85/?title=Tailwind%20CSS&width=500&color=8B5CF6&suffix=%25&style=flat-square" alt="Tailwind Progress"/>
+</p>
 
-  <tr>
-    <td><b>🎨 Tailwind CSS</b></td>
-    <td>
-      <div style="background-color:#1a1b27; border-radius:10px; width:100%; height:20px;">
-        <div style="background:linear-gradient(90deg, #8B5CF6 0%, #6366F1 85%); width:85%; height:20px; border-radius:10px;"></div>
-      </div>
-    </td>
-    <td align="right"><b>85%</b></td>
-  </tr>
+<p align="center"><b>⚙️ GitHub Actions</b></p>
+<p align="center">
+  <img src="https://progress-bar.dev/75/?title=GitHub%20Actions&width=500&color=3B82F6&suffix=%25&style=flat-square" alt="GitHub Actions Progress"/>
+</p>
 
-  <tr><td colspan="3"><br/></td></tr>
+<p align="center"><b>💻 JavaScript</b></p>
+<p align="center">
+  <img src="https://progress-bar.dev/80/?title=JavaScript&width=500&color=FACC15&suffix=%25&style=flat-square" alt="JavaScript Progress"/>
+</p>
 
-  <tr>
-    <td><b>⚙️ GitHub Actions</b></td>
-    <td>
-      <div style="background-color:#1a1b27; border-radius:10px; width:100%; height:20px;">
-        <div style="background:linear-gradient(90deg, #3B82F6 0%, #2563EB 75%); width:75%; height:20px; border-radius:10px;"></div>
-      </div>
-    </td>
-    <td align="right"><b>75%</b></td>
-  </tr>
-
-  <tr><td colspan="3"><br/></td></tr>
-
-  <tr>
-    <td><b>💻 JavaScript</b></td>
-    <td>
-      <div style="background-color:#1a1b27; border-radius:10px; width:100%; height:20px;">
-        <div style="background:linear-gradient(90deg, #FACC15 0%, #FBBF24 80%); width:80%; height:20px; border-radius:10px;"></div>
-      </div>
-    </td>
-    <td align="right"><b>80%</b></td>
-  </tr>
-</table>
-
+<p align="center">
+  <img src="https://i.imgur.com/sq6D7Dk.gif" width="780" height="6" alt="divider"/>
+</p>
 ---
 
 ## 🔄 CI/CD Pipeline Visualization

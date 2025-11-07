@@ -24,7 +24,7 @@ Minimal, Animated, and Professional GitHub-Safe README
 
 ---
 
-## 🚀 Live Preview
+## 🚀 Visit My Portfolio
 <p align="center">
   <a href="https://devmdave.github.io/my-portfolio" target="_blank">
     <img src="https://img.shields.io/badge/🚀%20Visit%20My%20Portfolio-00FFF5?style=for-the-badge&logo=vercel&logoColor=white" alt="Visit portfolio" />

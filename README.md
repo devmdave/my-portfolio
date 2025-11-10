@@ -51,10 +51,6 @@ Minimal, Animated, and Professional GitHub-Safe README
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3000&pause=700&color=00FFF5&center=true&vCenter=true&width=550&lines=⚙️+Tech+Skill+Progress;Next.js+%7C+Tailwind+CSS+%7C+GitHub+Actions+%7C+JavaScript" alt="Skill Header"/>
 </p>
 
-<p align="center">
-  <img src="https://i.imgur.com/sq6D7Dk.gif" width="780" height="6" alt="divider"/>
-</p>
-
 <table align="center" width="100%">
   <tr>
     <td align="left" width="200"><b>⚡ Next.js</b></td>

@@ -12,7 +12,6 @@ Minimal, Animated, and Professional GitHub-Safe README
 
 ---
 
-## 🧭 System Information Panel
 ```text
 🧠 Developer:        DevMDave
 🪄 Repository:       my-portfolio

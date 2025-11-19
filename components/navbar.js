@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
 
           {/* Logo */}
-          <a href="/">
+          <a href="/my-portfolio">
             <h1
               className={`${nautigal.className} text-6xl text-slate-700 hover:text-[#D5C455] transition-all duration-700`}
             >
@@ -77,10 +77,29 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <div className="hidden md:flex justify-center items-center mt-4">
           <ul className="uppercase text-xs flex space-x-8 text-slate-700 font-bold">
-            <li><a className="hover:text-slate-600" href="/about">About Me</a></li>
-            <li><a className="hover:text-slate-600" href="/projects">Projects</a></li>
-            <li><a className="hover:text-slate-600" href="/certificates">Certificates</a></li>
-            <li><a className="hover:text-slate-600" href="/contact">Contact</a></li>
+            <li>
+              <a className="hover:text-slate-600" href="/my-portfolio/about">
+                About Me
+              </a>
+            </li>
+            <li>
+              <a className="hover:text-slate-600" href="/my-portfolio/projects">
+                Projects
+              </a>
+            </li>
+            <li>
+              <a
+                className="hover:text-slate-600"
+                href="/my-portfolio/certificates"
+              >
+                Certificates
+              </a>
+            </li>
+            <li>
+              <a className="hover:text-slate-600" href="/my-portfolio/contact">
+                Contact
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -90,7 +109,7 @@ const Navbar = () => {
             <ul className="flex flex-row justify-center items-center space-x-3 font-bold uppercase">
               <li>
                 <a
-                  href="/about"
+                  href="/my-portfolio/about"
                   className="bg-slate-700 text-white px-4 py-2 rounded-full text-xs hover:bg-slate-600 transition"
                 >
                   About
@@ -99,7 +118,7 @@ const Navbar = () => {
 
               <li>
                 <a
-                  href="/projects"
+                  href="/my-portfolio/projects"
                   className="bg-slate-700 text-white px-4 py-2 rounded-full text-xs hover:bg-slate-600 transition"
                 >
                   Projects
@@ -108,7 +127,7 @@ const Navbar = () => {
 
               <li>
                 <a
-                  href="/certificates"
+                  href="/my-portfolio/certificates"
                   className="bg-slate-700 text-white px-4 py-2 rounded-full text-xs hover:bg-slate-600 transition"
                 >
                   Certificates
@@ -117,7 +136,7 @@ const Navbar = () => {
 
               <li>
                 <a
-                  href="/contact"
+                  href="/my-portfolio/contact"
                   className="bg-slate-700 text-white px-4 py-2 rounded-full text-xs hover:bg-slate-600 transition"
                 >
                   Contact

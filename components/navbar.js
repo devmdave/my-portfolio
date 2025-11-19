@@ -75,7 +75,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex justify-center items-center mt-4">
+        <div className="hidden md:flex justify-center items-center mt-2">
           <ul className="uppercase text-xs flex space-x-8 text-slate-700 font-bold">
             <li>
               <a className="hover:text-slate-600" href="/my-portfolio/about">

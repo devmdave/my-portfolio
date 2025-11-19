@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { The_Nautigal } from "next/font/google";
@@ -16,59 +16,9 @@ const MENU = [
   { name: "Contact", href: "/my-portfolio/contact" },
 ];
 
-const SocialIcons = ({ className = "w-5 h-5" }) => (
-  <div className="flex gap-3 items-center">
-    {/* GitHub */}
-    <a
-      href="https://github.com/devmdave"
-      target="_blank"
-      className="p-2 rounded-full hover:bg-white/10 transition"
-    >
-      <svg className={className} fill="black" viewBox="0 0 16 16">
-        <path d="M8 0C3.58 0 0 3.58 0 8..." />
-      </svg>
-    </a>
-
-    {/* LinkedIn */}
-    <a
-      href="https://www.linkedin.com/in/madhav-dave-52b552379/"
-      target="_blank"
-      className="p-2 rounded-full hover:bg-white/10 transition"
-    >
-      <svg className={className} fill="black" viewBox="0 0 16 16">
-        <path d="M0 1.146C0 .513.526 0..." />
-      </svg>
-    </a>
-
-    {/* StackOverflow */}
-    <a
-      href="https://stackoverflow.com/users/23113631/dev-mdave"
-      target="_blank"
-      className="p-2 rounded-full hover:bg-white/10 transition"
-    >
-      <svg className={className} fill="black" viewBox="0 0 16 16">
-        <path d="M12.412 14.572V10.29..." />
-      </svg>
-    </a>
-  </div>
-);
-
 const Navbar = () => {
   const pathname = usePathname();
-  const [open, setOpen] = useState(false); // mobile menu
-  const [socialOpen, setSocialOpen] = useState(false); // floating dropdown
-  const dropdownRef = useRef(null);
-
-  // Close socials when clicking outside
-  useEffect(() => {
-    function handleClick(e) {
-      if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
-        setSocialOpen(false);
-      }
-    }
-    document.addEventListener("mousedown", handleClick);
-    return () => document.removeEventListener("mousedown", handleClick);
-  }, []);
+  const [open, setOpen] = useState(false);
 
   return (
     <>
@@ -100,8 +50,10 @@ const Navbar = () => {
             </h1>
           </Link>
 
-          {/* DESKTOP MENU */}
+          {/* DESKTOP MENU + SOCIALS */}
           <div className="hidden md:flex items-center gap-10">
+            
+            {/* Main menu */}
             <ul className="flex items-center gap-6 text-sm font-semibold text-slate-700">
               {MENU.map((item) => (
                 <li key={item.href}>
@@ -116,25 +68,43 @@ const Navbar = () => {
                   </Link>
                 </li>
               ))}
-
-              {/* Socials dropdown */}
-              <li className="relative" ref={dropdownRef}>
-                <button
-                  onClick={() => setSocialOpen(!socialOpen)}
-                  className="hover:text-slate-900 transition"
-                >
-                  Socials
-                </button>
-
-                {/* floating glassmorphic box */}
-                {socialOpen && (
-                  <div className="absolute right-0 mt-2 w-44 p-3 bg-white/20 backdrop-blur-xl border border-white/30 rounded-xl shadow-lg">
-                    <p className="text-xs text-slate-500 mb-2">Find me on</p>
-                    <SocialIcons className="w-5 h-5" />
-                  </div>
-                )}
-              </li>
             </ul>
+
+            {/* ⭐ SOCIAL ICONS INLINE (clean & uncluttered) */}
+            <div className="flex items-center gap-4">
+              {/* GitHub */}
+              <a
+                href="https://github.com/devmdave"
+                target="_blank"
+                className="hover:opacity-70 transition"
+              >
+                <svg className="w-6 h-6" fill="black" viewBox="0 0 16 16">
+                  <path d="M8 0C3.58 0 0 3.58..." />
+                </svg>
+              </a>
+
+              {/* LinkedIn */}
+              <a
+                href="https://www.linkedin.com/in/madhav-dave-52b552379/"
+                target="_blank"
+                className="hover:opacity-70 transition"
+              >
+                <svg className="w-6 h-6" fill="black" viewBox="0 0 16 16">
+                  <path d="M0 1.146C0 .513.526 0..." />
+                </svg>
+              </a>
+
+              {/* StackOverflow */}
+              <a
+                href="https://stackoverflow.com/users/23113631/dev-mdave"
+                target="_blank"
+                className="hover:opacity-70 transition"
+              >
+                <svg className="w-6 h-6" fill="black" viewBox="0 0 16 16">
+                  <path d="M12.412 14.572..." />
+                </svg>
+              </a>
+            </div>
           </div>
 
           {/* MOBILE HAMBURGER */}
@@ -154,10 +124,12 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* MOBILE MENU */}
+        {/* MOBILE MENU (badges + social icons under) */}
         {open && (
           <div className="md:hidden mt-3 bg-white/40 backdrop-blur-xl border border-white/30 rounded-xl p-4">
-            <ul className="flex justify-center items-center gap-3 text-xs font-bold uppercase">
+            
+            {/* Badge menu */}
+            <ul className="flex justify-center items-center flex-wrap gap-3 text-xs font-bold uppercase">
               {MENU.map((item) => (
                 <li key={item.href}>
                   <Link href={item.href}>
@@ -170,23 +142,28 @@ const Navbar = () => {
                   </Link>
                 </li>
               ))}
-
-              <li>
-                <button
-                  onClick={() => setSocialOpen(!socialOpen)}
-                  className="bg-slate-700 text-white px-4 py-2 rounded-full hover:bg-slate-600 transition"
-                >
-                  Socials
-                </button>
-              </li>
             </ul>
 
-            {/* mobile social icons */}
-            {socialOpen && (
-              <div className="mt-3 bg-white/25 backdrop-blur-xl p-3 rounded-lg border border-white/20">
-                <SocialIcons className="w-6 h-6" />
-              </div>
-            )}
+            {/* Mobile socials inline under menu */}
+            <div className="flex justify-center gap-4 mt-4">
+              <a href="https://github.com/devmdave" target="_blank">
+                <svg className="w-6 h-6" fill="black" viewBox="0 0 16 16">
+                  <path d="M8 0C3.58 0 0 3.58..." />
+                </svg>
+              </a>
+
+              <a href="https://www.linkedin.com/in/madhav-dave-52b552379/" target="_blank">
+                <svg className="w-6 h-6" fill="black" viewBox="0 0 16 16">
+                  <path d="M0 1.146C0 .513.526 0..." />
+                </svg>
+              </a>
+
+              <a href="https://stackoverflow.com/users/23113631/dev-mdave" target="_blank">
+                <svg className="w-6 h-6" fill="black" viewBox="0 0 16 16">
+                  <path d="M12.412 14.572..." />
+                </svg>
+              </a>
+            </div>
           </div>
         )}
       </nav>

@@ -255,7 +255,7 @@ body{
     }
 }
 
-@keyframes gradientMove {
+@keyframes gradientFlow {
   0% {
     background-position: 0% 50%;
   }
@@ -267,7 +267,9 @@ body{
   }
 }
 
-
+.animate-gradientFlow {
+  animation: gradientFlow 6s ease infinite;
+}
 
 
 

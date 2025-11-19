@@ -31,15 +31,17 @@ export default function Home() {
             <h1 className="text-xs max-md:mt-[2vh] text-slate-700 uppercase poppins-regular">
               ECE Student | Embedded Systems, Machine Learning & Computer Vision | Web Developer
             </h1>
-            <button className="
-  h-auto uppercase max-md:mx-auto max-md:mt-[6vh] max-md:w-full 
-  mt-8 px-8 py-3 rounded-full 
-  text-white font-bold shadow-lg transition-all duration-300
+            <button
+  className="
+    h-auto uppercase max-md:mx-auto max-md:mt-[6vh] max-md:w-full 
+    mt-8 px-8 py-3 rounded-full text-white font-bold shadow-lg 
+    transition-all duration-300
 
-  bg-gradient-to-r from-gray-500 to-slate-700 
-  bg-[length:200%_200%] animate-[gradientMove_4s_ease_infinite]
-  hover:from-slate-600 hover:to-gray-700
-">
+    bg-gradient-to-r from-gray-500 via-slate-700 to-gray-500 
+    bg-[length:300%_300%]
+    animate-gradientFlow
+  "
+>
   download cv
 </button>
             {/* <h1 className="text-sm mt-[5vh] w-[50%] text-[#47411C] poppins-regular">

@@ -26,7 +26,7 @@ export default function Certificates() {
                 download
                 className="px-6 py-2 rounded-full bg-gradient-to-r from-gray-500 to-slate-700 text-white font-bold shadow hover:from-slate-600 hover:to-gray-700 transition-all duration-300"
               >
-                Download PDF
+                Download
               </a>
             </div>
           </div>

@@ -10,7 +10,7 @@ const nautigal = The_Nautigal({
 const Footer = () => {
   return (
     <footer
-      className="w-full h-screen flex flex-col justify-center items-center text-center px-6"
+      className="w-full h-auto flex flex-col justify-center items-center text-center px-6"
       style={{
         background:
           "linear-gradient(145deg, rgba(255,255,255,0.25), rgba(255,255,255,0.05))",

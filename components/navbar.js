@@ -43,7 +43,7 @@ const Navbar = () => {
       `}</style>
 
       {/* ⭐ Smaller Navbar */}
-      <nav className="backdrop-blur-xs sticky top-0 z-50 shadow-md border-b border-white/20 px-4 py-2">
+      <nav className="backdrop-blur-xs mb-[10vh] sticky top-0 z-50 shadow-md border-b border-white/20 px-4 py-2">
         
         <div className="flex flex-row max-md:justify-between max-md:items-center md:justify-center md:items-center">
           

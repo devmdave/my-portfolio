@@ -45,7 +45,7 @@ const Navbar = () => {
       {/* ⭐ Smaller Navbar */}
       <nav className="backdrop-blur-xs sticky top-0 z-50 shadow-md border-b border-white/20 px-4 py-2">
         
-        <div className="flex flex-row max-md:justify-items-center text-center items-center">
+        <div className="flex flex-row max-md:justify-between max-md:items-center md:justify-center md:items-center">
           
           {/* LEFT — LOGO (smaller now) */}
           <div className="ml-1 w-[30vw]">

@@ -1,117 +1,73 @@
-"use client";
 import React from "react";
-import { The_Nautigal } from "next/font/google";
+import "../styles/globals.css";
 
-const nautigal = The_Nautigal({
-  weight: ["400"],
-  subsets: ["latin"],
-});
+const SocialIcon = ({ href, label, children }) => (
+  <a
+    href={href}
+    aria-label={label}
+    className="w-10 h-10 flex hover:scale-[1.2] items-center justify-center rounded-xl border border-slate-500/30 text-slate-700 hover:bg-slate-700 hover:text-white hover:border-slate-100 transition-all duration-300 bg-white/5 backdrop-blur-sm"
+  >
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="24" 
+      height="24" 
+      viewBox="0 0 24 24" 
+      className="fill-current w-5 h-5"
+    >
+      {children}
+    </svg>
+  </a>
+);
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
-    <footer
-      className="w-full h-auto flex flex-col justify-center items-center text-center px-6"
-      style={{
-        background:
-          "linear-gradient(145deg, rgba(255,255,255,0.25), rgba(255,255,255,0.05))",
-        backdropFilter: "blur(18px) saturate(180%)",
-        WebkitBackdropFilter: "blur(18px) saturate(180%)",
-        borderTop: "1.5px solid rgba(255,255,255,0.25)",
-        borderBottom: "1.5px solid rgba(255,255,255,0.25)",
-        boxShadow: "inset 0 12px 40px rgba(0,0,0,0.15)",
-      }}
-    >
-      {/* BRAND LOGO */}
-      <h1
-        className={`${nautigal.className} text-6xl md:text-7xl text-slate-800 drop-shadow-lg`}
-      >
-        &lt;m.dev/&gt;
-      </h1>
+    <footer className="backdrop-blur-xs sticky z-50 shadow-2xl/30 border-t border-slate-400/40 px-4 py-2">
+      <div className="max-w-7xl mx-auto flex flex-col">
+        
+        {/* TOP ROW: Logo & Tagline */}
+        <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-0 mb-8">
+            <div className="flex flex-col items-center md:items-center space-y-2">
+                <a href="#" className="group">
+                    <h1 className="nautigal mt-[5vh] text-6xl text-slate-700 group-hover:text-[#D5C455] transition-all duration-500 leading-none">
+                        &lt;m.dev/&gt;
+                    </h1>
+                </a>
+                <p className="text-xs text-slate-400 font-light tracking-widest uppercase">
+                    Building digital experiences
+                </p>
+            </div>
+        </div>
 
-      {/* SUBTITLE */}
-      <p className="max-w-xl mx-auto text-gray-700 text-sm mt-3">
-        Crafting beautifully engineered digital experiences with clarity,
-        precision and creativity.
-      </p>
+        {/* DIVIDER */}
+        <div className="w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent mb-8"></div>
 
-      {/* SOCIAL ICONS */}
-      <div className="flex space-x-6 mt-8">
-        {/* GitHub */}
-        <a
-          href="https://github.com/devmdave"
-          target="_blank"
-          className="p-4 bg-white/20 rounded-full transition-all hover:scale-105 hover:bg-white/30"
-          aria-label="GitHub"
-        >
-          <svg className="w-7 h-7" viewBox="0 0 16 16" fill="black">
-            <path d="M8 0C3.58 0 0 3.58 0 8a8 
-              8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38 
-              0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94
-              -.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
-              -.01-.53.63-.01 1.08.58 1.23.82.72 
-              1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07
-              -1.78-.2-3.64-.89-3.64-3.95 
-              0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
-              0 0 .67-.21 2.2.82.64-.18 1.32-.27 
-              2-.27s1.36.09 2 .27c1.53-1.04 
-              2.2-.82 2.2-.82.44 1.1.16 1.92.08 
-              2.12.51.56.82 1.27.82 2.15 
-              0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 
-              1.48 0 1.07-.01 1.93-.01 2.2 
-              0 .21.15.46.55.38A8.01 8.01 0 0 0 16 
-              8c0-4.42-3.58-8-8-8z" />
-          </svg>
-        </a>
+        {/* BOTTOM ROW: Socials & Copyright */}
+        <div className="flex flex-col items-center space-y-6">
+            
+            {/* Social Icons */}
+            <div className="flex space-x-6">
+                <SocialIcon href="#" label="GitHub">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </SocialIcon>
 
-        {/* LinkedIn */}
-        <a
-          href="https://www.linkedin.com/in/madhav-dave-52b552379/"
-          target="_blank"
-          className="p-4 bg-white/20 rounded-full transition-all hover:scale-105 hover:bg-white/30"
-          aria-label="LinkedIn"
-        >
-          <svg className="w-7 h-7" fill="#0A66C2" viewBox="0 0 16 16">
-            <path d="M0 1.146C0 .513.526 0 
-              1.175 0h13.65C15.474 0 16 .513 
-              16 1.146v13.708c0 .633-.526 
-              1.146-1.175 1.146H1.175C.526 16 0 
-              15.487 0 14.854V1.146zm4.943 
-              12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 
-              0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248H3.758C2.938 
-              2.636 2.4 3.175 2.4 3.883c0 
-              .694.521 1.248 1.343 
-              1.248h.001zM13.458 13.394V9.359c0-2.168-1.161-3.176-2.708-3.176-1.248 
-              0-1.805.689-2.118 1.176h-.03V6.169h-2.4c.03.678 
-              0 7.225 0 7.225h2.4v-3.92c0-.21.016-.42.077-.57.169-.42.553-.852 
-              1.197-.852.843 0 1.18.642 1.18 1.586v3.756h2.402z"/>
-          </svg>
-        </a>
+                <SocialIcon href="#" label="LinkedIn">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </SocialIcon>
 
-        {/* StackOverflow */}
-        <a
-          href="https://stackoverflow.com/users/23113631/dev-mdave"
-          target="_blank"
-          className="p-4 bg-white/20 rounded-full transition-all hover:scale-105 hover:bg-white/30"
-          aria-label="StackOverflow"
-        >
-          <svg className="w-7 h-7" fill="#F48024" viewBox="0 0 16 16">
-            <path d="M12.412 14.572V10.29h1.428V16H1v-5.71h1.428v4.282z" />
-            <path d="M3.857 13.145h7.137v-1.428H3.857z" />
-            <path d="M10.254 0 9.108.852l4.26 5.727 1.146-.852z" />
-            <path d="M6.714 3.377 12.198 7.944l.913-1.097L7.627 2.28z" />
-            <path d="M4.922 6.55l6.47 3.013.603-1.294-6.47-3.013z" />
-            <path d="M3.997 9.894l6.985 1.469.294-1.398-6.985-1.468z" />
-          </svg>
-        </a>
+                <SocialIcon href="#" label="Twitter">
+                    <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                </SocialIcon>
+            </div>
+
+            {/* Copyright */}
+            <p className="text-[10px] md:text-xs text-slate-400 font-medium uppercase tracking-widest text-center">
+                &copy; {currentYear} All rights reserved <span className="text-[#D5C455]">&lt;m.dev/&gt;</span>
+            </p>
+        </div>
+
       </div>
-
-      {/* Separator */}
-      <div className="border-t border-white/40 mt-10 w-2/3 mx-auto"></div>
-
-      {/* COPYRIGHT */}
-      <p className="text-xs text-gray-600 mt-3">
-        © 2025 &lt;m.dev/&gt; — All Rights Reserved.
-      </p>
     </footer>
   );
 };

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import man from "../public/images/man.png";
 import Navbar from "../components/navbar";
+import PayMeCard from "../components/paymecard";
 import techstacky from "../data/techstack.json"; // Assuming you have a techstack.json file in data folder
 
 export default function Home() {
@@ -303,6 +304,13 @@ export default function Home() {
           </button>
         </form>
       </section>
+      <section className="mt-[5vh] mb-[5vh] mx-auto justify-center items-center text-center">
+        <div className="w-[50vw] mx-auto justify-items-center items-center text-center">
+            <PayMeCard></PayMeCard>
+        </div>
+        
+      </section>
+      
     </section>
   );
 }

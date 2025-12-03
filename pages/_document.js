@@ -19,8 +19,9 @@ export default function Document() {
         <Sidebar></Sidebar>
         <Main />
         <NextScript />
+        <Footer></Footer>
+
       </body>
-      <Footer></Footer>
     </Html>
   );
 }

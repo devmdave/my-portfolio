@@ -188,17 +188,29 @@ export default function AboutPage() {
             </div>
             <div className="md:col-span-7 space-y-6 animate-fade-in-up delay-100">
               <div className="glass-card p-8 rounded-3xl">
-                <h2 className="text-3xl mb-[2vh] font-bold text-slate-800 flex items-center">
+                <h2 className="text-2xl tracking-wider flex flex-row mb-[2vh] font-bold text-slate-800 flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="size-7 my-auto mr-2 text-slate-800"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm8.706-1.442c1.146-.573 2.437.463 2.126 1.706l-.709 2.836.042-.02a.75.75 0 0 1 .67 1.34l-.04.022c-1.147.573-2.438-.463-2.127-1.706l.71-2.836-.042.02a.75.75 0 1 1-.671-1.34l.041-.022ZM12 9a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
                   ABOUT ME
                 </h2>
-                <p className="text-lg leading-relaxed text-slate-600 mb-4">
+                <p className="text-md max-md:text-sm leading-relaxed text-slate-600 mb-4">
                   I am a passionate developer driven by the intersection of
                   technology and human experience. My journey began with a
                   simple curiosity about how things work, which quickly evolved
                   into a career dedicated to building intelligent systems and
                   intuitive interfaces.
                 </p>
-                <p className="text-lg leading-relaxed text-slate-600">
+                <p className="text-md max-md:text-sm  leading-relaxed text-slate-600">
                   With a background in computer science and a flair for design,
                   I strive to create software that is not only functional but
                   also delightful to use. I believe in the power of open source,
@@ -231,16 +243,19 @@ export default function AboutPage() {
                   Bachelor of Technology in Electronics and Communication
                   (Currently Pursuing)
                 </div>
-                <div className="text-slate-600 text-left">
-                  XYZ University, 2025 - 2029
+                <div className="text-sm text-slate-600 text-left">
+                  Gandhinagar Institute Of Technology, 2025 - 2029
                 </div>
-                <ul className="mt-3 text-slate-500 text-left list-disc list-inside">
+                <ul className="mt-3 text-sm text-slate-500 text-left list-disc list-inside">
                   <li>CGPA: Currently Pursuing</li>
                   <li>
                     Relevant Coursework: Data Structures, Algorithms, Web
                     Development, AI
                   </li>
-                  <li>Clubs: Coding Club, Tech Society</li>
+                  <li>Member of Hackathon Core Team (Involved in managing and organising hackathons throughout the institute)</li>
+                  <li>Member of IoTzen Team (Involved in developing and organising hardware and IoT related events and projects)</li>
+                  <li>Member of Tech Community (Involved in managing technical and tech-related events and softwares)</li>
+
                 </ul>
                 <div className="grid md:grid-cols-2 gap-4">
                   <div className="bg-white/50 rounded-xl p-4 border border-white/60">
@@ -256,7 +271,7 @@ export default function AboutPage() {
                       Achievements
                     </h4>
                     <p className="text-slate-600 text-sm">
-                      Dean's List, Best Capstone Project Award
+                      First Prize in Internal SIH Hackathon 2025
                     </p>
                   </div>
                 </div>
@@ -266,7 +281,20 @@ export default function AboutPage() {
 
           {/* 4. Experience/Roles Section */}
           <section className="w-[90vw] glass-card rounded-xl backdrop-blur-sm p-8 mx-auto bg-white">
-            <h2 className="text-3xl font-bold text-slate-800 mb-10 text-left animate-fade-in-up">
+            <h2 className="text-2xl  flex flex-row tracking-wider font-bold text-slate-800 mb-10 text-left animate-fade-in-up">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="size-7 my-auto mr-2 text-slate-800"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M7.5 5.25a3 3 0 0 1 3-3h3a3 3 0 0 1 3 3v.205c.933.085 1.857.197 2.774.334 1.454.218 2.476 1.483 2.476 2.917v3.033c0 1.211-.734 2.352-1.936 2.752A24.726 24.726 0 0 1 12 15.75c-2.73 0-5.357-.442-7.814-1.259-1.202-.4-1.936-1.541-1.936-2.752V8.706c0-1.434 1.022-2.7 2.476-2.917A48.814 48.814 0 0 1 7.5 5.455V5.25Zm7.5 0v.09a49.488 49.488 0 0 0-6 0v-.09a1.5 1.5 0 0 1 1.5-1.5h3a1.5 1.5 0 0 1 1.5 1.5Zm-3 8.25a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z"
+                  clip-rule="evenodd"
+                />
+                <path d="M3 18.4v-2.796a4.3 4.3 0 0 0 .713.31A26.226 26.226 0 0 0 12 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 0 1-6.477-.427C4.047 21.128 3 19.852 3 18.4Z" />
+              </svg>
               WORK EXPEREINCE
             </h2>
             <div className="grid  md:grid-cols-2 gap-6">

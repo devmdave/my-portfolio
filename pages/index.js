@@ -30,10 +30,11 @@ export default function Home() {
               </h1>
             </div>
             <h1 className="text-xs max-md:mt-[2vh] text-slate-700 uppercase poppins-regular">
-              ECE Student | Embedded Systems, Machine Learning & Computer Vision | Web Developer
+              ECE Student | Embedded Systems, Machine Learning & Computer Vision
+              | Web Developer
             </h1>
             <button
-  className="
+              className="
     h-auto uppercase max-md:mx-auto max-md:mt-[6vh] max-md:w-full 
     mt-8 px-8 py-3 rounded-full text-white font-bold shadow-lg 
     transition-all duration-300
@@ -42,9 +43,9 @@ export default function Home() {
     bg-[length:300%_300%]
     animate-gradientFlow
   "
->
-  download cv
-</button>
+            >
+              <a> </a> download cv
+            </button>
             {/* <h1 className="text-sm mt-[5vh] w-[50%] text-[#47411C] poppins-regular">
                 I’m a versatile developer skilled in HTML, CSS, and JavaScript. I work with modern frameworks like Next.js, Vue.js, and AngularJS. I craft web solutions that are fast, expressive, and user-centered. My experience spans Android app development and Python automation. I blend functionality with elegance to build tools that truly work
             </h1> */}
@@ -111,8 +112,13 @@ export default function Home() {
             <span className="font-bold text-4xl nautigal-bold text-slate-800">
               Madhav Dave
             </span>{" "}
-            — a passionate developer who loves turning coffee into code! 
-            I build intelligent, user-friendly systems that bridge the gap between hardware and software. As a web developer and embedded engineer, I craft responsive interfaces and automation tools that feel intuitive and perform reliably. My work blends machine learning, computer vision, and real-time control to create solutions that are not just functional—but delightful to use.
+            — a passionate developer who loves turning coffee into code! I build
+            intelligent, user-friendly systems that bridge the gap between
+            hardware and software. As a web developer and embedded engineer, I
+            craft responsive interfaces and automation tools that feel intuitive
+            and perform reliably. My work blends machine learning, computer
+            vision, and real-time control to create solutions that are not just
+            functional—but delightful to use.
           </p>
           <p className="text-base poppins-light text-slate-500">
             I enjoy solving problems, learning new technologies, and
@@ -306,11 +312,9 @@ export default function Home() {
       </section>
       <section className="mt-[5vh] mb-[5vh] mx-auto justify-center items-center text-center">
         <div className="w-[50vw] mx-auto justify-items-center items-center text-center">
-            <PayMeCard></PayMeCard>
+          <PayMeCard></PayMeCard>
         </div>
-        
       </section>
-      
     </section>
   );
 }

@@ -174,7 +174,7 @@ export default function AboutPage() {
 
         {/* Main Content */}
 
-        <main className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto space-y-24 relative z-10">
+        <main className="max-md:pt-0 pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto space-y-24 relative z-10">
           {/* 2. Biography Section */}
           <section className="grid md:grid-cols-12 gap-12 items-center">
             <div className="md:col-span-5 animate-fade-in-up">

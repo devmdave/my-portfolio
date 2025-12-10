@@ -33,19 +33,19 @@ export default function Home() {
               ECE Student | Embedded Systems, Machine Learning & Computer Vision
               | Web Developer
             </h1>
-            <button
+            <a href="https://docs.google.com/document/d/1T9cKeQSvxSqs-6QPLrfYyjKrN1XeJgJI8gF4n3sqo0I/export?format=pdf" download><button
               className="
-    h-auto uppercase max-md:mx-auto max-md:mt-[6vh] max-md:w-full 
-    mt-8 px-8 py-3 rounded-full text-white font-bold shadow-lg 
-    transition-all duration-300
+                h-auto uppercase max-md:mx-auto max-md:mt-[6vh] max-md:w-full 
+                mt-8 px-8 py-3 rounded-full text-white font-bold shadow-lg 
+                transition-all duration-300
 
-    bg-gradient-to-r from-gray-500 via-slate-700 to-gray-500 
-    bg-[length:300%_300%]
-    animate-gradientFlow
-  "
+                bg-gradient-to-r from-gray-500 via-slate-700 to-gray-500 
+                bg-[length:300%_300%]
+                animate-gradientFlow
+              "
             >
-              <a> </a> download cv
-            </button>
+              download cv
+            </button></a>
             {/* <h1 className="text-sm mt-[5vh] w-[50%] text-[#47411C] poppins-regular">
                 I’m a versatile developer skilled in HTML, CSS, and JavaScript. I work with modern frameworks like Next.js, Vue.js, and AngularJS. I craft web solutions that are fast, expressive, and user-centered. My experience spans Android app development and Python automation. I blend functionality with elegance to build tools that truly work
             </h1> */}

@@ -38,7 +38,7 @@ export default function Home() {
                 h-auto uppercase max-md:mx-auto max-md:mt-[6vh] max-md:w-full 
                 mt-8 px-8 py-3 rounded-full text-white font-bold shadow-lg 
                 transition-all duration-300
-
+                hover:scale-[1.25]
                 bg-gradient-to-r from-gray-500 via-slate-700 to-gray-500 
                 bg-[length:300%_300%]
                 animate-gradientFlow
@@ -111,14 +111,10 @@ export default function Home() {
             Hi, I'm{" "}
             <span className="font-bold text-4xl nautigal-bold text-slate-800">
               Madhav Dave
-            </span>{" "}
-            — a passionate developer who loves turning coffee into code! I build
-            intelligent, user-friendly systems that bridge the gap between
-            hardware and software. As a web developer and embedded engineer, I
-            craft responsive interfaces and automation tools that feel intuitive
-            and perform reliably. My work blends machine learning, computer
-            vision, and real-time control to create solutions that are not just
-            functional—but delightful to use.
+            </span>{" "} <br/>
+           I design and develop software-driven systems that require close coordination between embedded hardware and higher-level software components. My work involves microcontroller-level programming, peripheral interfacing, and firmware logic, alongside backend system development and application-level services. I focus on how data, control signals, and system states move across hardware and software boundaries.
+          On the software side, I design backend architectures that handle device communication, data processing, and system orchestration. This includes defining interfaces, managing asynchronous events, and ensuring reliable communication between distributed components. I prioritize clarity in system design, predictable behavior under constraints, and scalability where system growth is expected.
+          Across both hardware and software layers, I follow an engineering-first approach: clear abstractions, well-defined interfaces, and maintainable architecture. I aim to build systems that are not only functional but also debuggable, extensible, and suitable for real-world deployment rather than isolated prototypes.
           </p>
           <p className="text-base poppins-light text-slate-500">
             I enjoy solving problems, learning new technologies, and

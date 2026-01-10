@@ -112,9 +112,7 @@ export default function Home() {
             <span className="font-bold text-4xl nautigal-bold text-slate-800">
               Madhav Dave
             </span>{" "} <br/>
-           I design and develop software-driven systems that require close coordination between embedded hardware and higher-level software components. My work involves microcontroller-level programming, peripheral interfacing, and firmware logic, alongside backend system development and application-level services. I focus on how data, control signals, and system states move across hardware and software boundaries.
-          On the software side, I design backend architectures that handle device communication, data processing, and system orchestration. This includes defining interfaces, managing asynchronous events, and ensuring reliable communication between distributed components. I prioritize clarity in system design, predictable behavior under constraints, and scalability where system growth is expected.
-          Across both hardware and software layers, I follow an engineering-first approach: clear abstractions, well-defined interfaces, and maintainable architecture. I aim to build systems that are not only functional but also debuggable, extensible, and suitable for real-world deployment rather than isolated prototypes.
+           I engineer integrated hardware–software systems with a focus on reliable interaction between embedded devices and software components. My work includes microcontroller programming, peripheral interfacing, and firmware development, along with backend and application-level software for device communication, data processing, and system coordination. I emphasize clear interfaces, deterministic behavior, and maintainable architecture to build systems suitable for real-world deployment.
           </p>
           <p className="text-base poppins-light text-slate-500">
             I enjoy solving problems, learning new technologies, and

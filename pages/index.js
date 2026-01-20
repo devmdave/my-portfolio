@@ -53,7 +53,7 @@ export default function Home() {
               <div className="flex flex-col gap-4 ">
                 {/* Email Box */}
                 <a
-                  href="mailto:davemadhav2007@gmail.com"
+                  href="mailto:madhav.dave@outlook.com"
                   className="flex max-md:text-xs items-center gap-3 bg-white shadow-lg rounded-xl px-6 py-4 hover:scale-105 transition-transform duration-300 border border-slate-200"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -74,7 +74,7 @@ export default function Home() {
                     <path d="m22 6-10 7L2 6" />
                   </svg>
                   <span className="font-semibold text-slate-700 select-all">
-                    davemadhav2007@gmail.com
+                    madhav.dave@outlook.com
                   </span>
                 </a>
                 {/* Location Box */}

@@ -10,11 +10,10 @@ const PayMeCard = () => {
         <div className="card">
           <div className="glass" />
           <div className="content p-6 mx-auto text-center items-center justify-items-center">
-            <span className="title mb-[2vh]">SCAN TO BUY ME A CHAI!!</span>
             <Image
                 src={qrcode}
                 alt="Hero Image"
-                className="qrcode w-[80%] h-[80%] p-0 mt-0 mb-0 ease-in-out duration-1000 transition-all mx-auto bg-cover object-cover"
+                className="qrcode w-[80%] h-[80%] p-0 mt-[5vh] ease-in-out duration-1000 transition-all mx-auto bg-cover object-cover"
             />
           </div>
         </div>
@@ -26,8 +25,8 @@ const PayMeCard = () => {
 
 const StyledWrapper = styled.div`
     .parent {
-      width: 300px;
-      height: 320px;
+      width: 400px;
+      height: 420px;
       perspective: 1200px;
     }
 

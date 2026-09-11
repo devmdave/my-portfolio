@@ -1,14 +1,15 @@
 import Image from "next/image";
 import man from "../public/images/man.png";
+import qrcode from "../public/images/my-qr-nobg.png";
 import Navbar from "../components/navbar";
-import PayMeCard from "../components/paymecard";
 import techstacky from "../data/techstack.json"; // Assuming you have a techstack.json file in data folder
 
 export default function Home() {
   return (
-    <section className="">
+    <section className="poppins-medium">
       <Navbar></Navbar>
-      <section className="h-auto max-md:flex-col flex  flex-row">
+      <section className="h-auto max
+      -md:flex-col flex  flex-row">
         <div className="w-[50%] max-md:w-full  text-center">
           <Image
             src={man}
@@ -54,7 +55,7 @@ export default function Home() {
                 {/* Email Box */}
                 <a
                   href="mailto:davemadhav2007@gmail.com"
-                  className="flex max-md:text-xs items-center gap-3 bg-white shadow-lg rounded-xl px-6 py-4 hover:scale-105 transition-transform duration-300 border border-slate-200"
+                  className="flex max-md:text-xs items-center gap-3 glass-card rounded-xl px-6 py-4 hover:scale-105 transition-transform duration-300"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -73,12 +74,12 @@ export default function Home() {
                     <rect width="20" height="16" x="2" y="4" rx="2" />
                     <path d="m22 6-10 7L2 6" />
                   </svg>
-                  <span className="font-semibold text-slate-700 select-all">
+                  <span className="font-semibold text-slate-700 select-all poppins-medium">
                     davemadhav2007@gmail.com
                   </span>
                 </a>
                 {/* Location Box */}
-                <div className="flex items-center gap-3 bg-white shadow-lg rounded-xl px-6 py-4 border border-slate-200">
+                <div className="flex items-center gap-3 glass-card rounded-xl px-6 py-4">
                   {/* Location SVG */}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +91,7 @@ export default function Home() {
                   >
                     <path d="M360-440h80v-110h80v110h80v-190l-120-80-120 80v190Zm120 254q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z" />
                   </svg>
-                  <span className="font-semibold max-md:text-xs text-slate-700">
+                  <span className="font-semibold max-md:text-xs text-slate-700 poppins-medium">
                     Ahmedabad, Gujarat, India
                   </span>
                 </div>
@@ -100,21 +101,19 @@ export default function Home() {
         </div>
       </section>
       <section
-        className="bg-slate-50 py-16 px-4 flex flex-row max-md:flex-col items-center"
+        className="py-16 px-4 flex flex-row max-md:flex-col items-center"
         id="about"
       >
-        <div className="bg-white mx-8 shadow-lg rounded-2xl max-md:h-auto h-[100vh] p-10 max-md:w-full w-[40vw] text-center">
-          <h2 className="text-3xl font-bold text-slate-700 mb-10 uppercase tracking-wider">
-            what i do?
+        <div className="glass-card mx-8 rounded-2xl max-md:h-auto h-auto p-10 max-md:w-full w-[40vw] text-center">
+          <h2 className="text-3xl poppins-bold font-bold text-slate-700 mb-10 uppercase tracking-wider">
+            what i build
           </h2>
           <p className="text-lg poppins-regular text-slate-600 mb-4">
             Hi, I'm{" "}
             <span className="font-bold text-4xl nautigal-bold text-slate-800">
               Madhav Dave
-            </span>{" "} <br/>
-           I design and develop software-driven systems that require close coordination between embedded hardware and higher-level software components. My work involves microcontroller-level programming, peripheral interfacing, and firmware logic, alongside backend system development and application-level services. I focus on how data, control signals, and system states move across hardware and software boundaries.
-          On the software side, I design backend architectures that handle device communication, data processing, and system orchestration. This includes defining interfaces, managing asynchronous events, and ensuring reliable communication between distributed components. I prioritize clarity in system design, predictable behavior under constraints, and scalability where system growth is expected.
-          Across both hardware and software layers, I follow an engineering-first approach: clear abstractions, well-defined interfaces, and maintainable architecture. I aim to build systems that are not only functional but also debuggable, extensible, and suitable for real-world deployment rather than isolated prototypes.
+            </span>{" "} <br />
+            I engineer integrated hardware–software systems with a focus on reliable interaction between embedded devices and software components. My work includes microcontroller programming, peripheral interfacing, and firmware development, along with backend and application-level software for device communication, data processing, and system coordination. I emphasize clear interfaces, deterministic behavior, and maintainable architecture to build systems suitable for real-world deployment.
           </p>
           <p className="text-base poppins-light text-slate-500">
             I enjoy solving problems, learning new technologies, and
@@ -123,7 +122,7 @@ export default function Home() {
             automation and AI tools.
           </p>
         </div>
-        <div className="h-auto max-md:h-auto max-md:mt-[5vh] font-bold poppins-regular bg-white flex mx-8 shadow-lg rounded-2xl  p-10 max-md:w-full w-[40vw] flex-col">
+        <div className="h-auto max-md:h-auto max-md:mt-[5vh] font-bold poppins-regular glass-card flex mx-8 rounded-2xl p-10 max-md:w-full w-[40vw] flex-col">
           <h2 className="text-3xl poppins-bold text-center font-bold text-slate-700 mb-10 uppercase tracking-wider">
             Tech Fluency
           </h2>
@@ -205,7 +204,7 @@ export default function Home() {
               {techstacky[0].tags.map((tag) => (
                 <span
                   key={tag}
-                  className="bg-slate-200 text-slate-700 px-3 py-1 rounded-full text-xs font-semibold"
+                  className="glass text-slate-700 px-3 py-1 rounded-full text-xs font-semibold border border-white/60 shadow-xs"
                 >
                   {tag}
                 </span>
@@ -215,7 +214,7 @@ export default function Home() {
         </div>
       </section>
       <section
-        className="bg-white poppins-medium py-16 flex flex-col items-center"
+        className="poppins-medium py-16 flex flex-col items-center"
         id="testimonials"
       >
         <h2 className="text-3xl poppins-bold font-bold text-slate-700 mb-10 uppercase tracking-wider">
@@ -223,7 +222,7 @@ export default function Home() {
         </h2>
         <div className="flex flex-col md:flex-row gap-8 w-full max-w-4xl justify-center">
           {/* Testimonial 1 */}
-          <div className="bg-slate-50 shadow-lg rounded-2xl p-8 flex-1 flex flex-col items-center">
+          <div className="glass-card rounded-2xl p-8 flex-1 flex flex-col items-center">
             <img
               src="https://randomuser.me/api/portraits/men/32.jpg"
               alt="Client 1"
@@ -239,7 +238,7 @@ export default function Home() {
             </span>
           </div>
           {/* Testimonial 2 */}
-          <div className="bg-slate-50 shadow-lg rounded-2xl p-8 flex-1 flex flex-col items-center">
+          <div className="glass-card rounded-2xl p-8 flex-1 flex flex-col items-center">
             <img
               src="https://randomuser.me/api/portraits/women/44.jpg"
               alt="Client 2"
@@ -253,7 +252,7 @@ export default function Home() {
             <span className="text-xs text-slate-400">Founder, StartupX</span>
           </div>
           {/* Testimonial 3 */}
-          <div className="bg-slate-50 shadow-lg rounded-2xl p-8 flex-1 flex flex-col items-center">
+          <div className="glass-card rounded-2xl p-8 flex-1 flex flex-col items-center">
             <img
               src="https://randomuser.me/api/portraits/men/65.jpg"
               alt="Client 3"
@@ -269,47 +268,81 @@ export default function Home() {
         </div>
       </section>
       <section
-        className="bg-slate-50 max-md:p-10 poppins-medium py-16 flex flex-col items-center"
+        className="max-md:p-10 poppins-medium py-16 flex flex-row max-md:flex-col items-stretch justify-center gap-8"
         id="contact"
       >
-        <h2 className="text-3xl poppins-bold font-bold text-slate-700 mb-6 uppercase tracking-wider">
-          Contact Me
-        </h2>
-        <p className="text-slate-600 mb-8 text-center max-w-lg">
-          Interested in working together or have a question? Fill out the form
-          below and I’ll get back to you soon!
-        </p>
-        <form className="bg-white shadow-lg rounded-2xl p-8 w-full max-w-md flex flex-col space-y-4">
-          <input
-            type="text"
-            placeholder="Your Name"
-            className="border border-slate-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-slate-400"
-            required
-          />
-          <input
-            type="email"
-            placeholder="Your Email"
-            className="border border-slate-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-slate-400"
-            required
-          />
-          <textarea
-            placeholder="Your Message"
-            rows={5}
-            className="border border-slate-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-slate-400 resize-none"
-            required
-          />
-          <button
-            type="submit"
-            className="mt-2 px-6 py-3 rounded-full bg-gradient-to-r from-gray-500 to-slate-700 text-white font-bold shadow-lg hover:from-slate-600 hover:to-gray-700 transition-all duration-300"
-          >
-            Send Message
-          </button>
-        </form>
-      </section>
-      <section className="mt-[5vh] mb-[5vh] mx-auto justify-center items-center text-center">
-        <div className="w-[50vw] mx-auto justify-items-center items-center text-center">
-          <PayMeCard></PayMeCard>
+        <div className="w-[50vw] max-md:w-full flex flex-col items-center text-center mx-auto">
+          <form className="glass-card rounded-2xl p-8 w-full max-w-xl flex flex-col space-y-4 h-full">
+            <h2 className="text-3xl text-center poppins-bold font-bold text-slate-700 mb-2 uppercase tracking-wider">
+              Contact Me
+            </h2>
+            <p className="text-slate-600 mb-6 text-center max-w-lg mx-auto poppins-medium">
+              Interested in working together or have a question? Fill out the form
+              below and I’ll get back to you soon!
+            </p>
+            <input
+              type="text"
+              placeholder="Your Name"
+              className="bg-white/60 backdrop-blur-sm border border-slate-300/80 rounded px-4 py-2 text-slate-800 placeholder-slate-400 focus:bg-white/90 focus:outline-none focus:ring-2 focus:ring-slate-400 transition duration-200 poppins-regular"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Your Email"
+              className="bg-white/60 backdrop-blur-sm border border-slate-300/80 rounded px-4 py-2 text-slate-800 placeholder-slate-400 focus:bg-white/90 focus:outline-none focus:ring-2 focus:ring-slate-400 transition duration-200 poppins-regular"
+              required
+            />
+            <textarea
+              placeholder="Your Message"
+              rows={5}
+              className="bg-white/60 backdrop-blur-sm border border-slate-300/80 rounded px-4 py-2 text-slate-800 placeholder-slate-400 focus:bg-white/90 focus:outline-none focus:ring-2 focus:ring-slate-400 transition duration-200 resize-none poppins-regular"
+              required
+            />
+            <button
+              type="submit"
+              className="mt-2 px-6 py-3 rounded-full bg-gradient-to-r from-gray-500 to-slate-700 text-white font-bold shadow-lg hover:from-slate-600 hover:to-gray-700 transition-all duration-300 poppins-bold uppercase tracking-wider"
+            >
+              Send Message
+            </button>
+          </form>
         </div>
+        <div className="w-[50vw] max-md:w-full max-md:mt-12 mx-auto flex flex-col justify-center items-center text-center">
+          <div className="glass-card rounded-2xl p-8 max-w-xl w-full h-full flex flex-col items-center justify-between text-center">
+            <div>
+              <h3 className="text-3xl text-center poppins-bold font-bold text-slate-700 mb-2 uppercase tracking-wider">
+                Support My Work
+              </h3>
+              <p className="text-sm text-slate-600 poppins-regular leading-relaxed max-w-xs mx-auto">
+                Enjoyed my work? You can support me with a chai. ☕
+              </p>
+            </div>
+
+            <div className="p-5 bg-white/70 backdrop-blur-md rounded-2xl border border-white/80 shadow-inner my-auto flex items-center justify-center">
+              <Image
+                src={qrcode}
+                alt="QR Code to Support"
+                width={240}
+                height={240}
+                className="w-52 h-52 sm:w-56 sm:h-56 md:w-60 md:h-60 object-contain rounded-lg"
+              />
+            </div>
+
+            <div className="flex items-center gap-2 text-xs poppins-medium font-semibold text-slate-500 uppercase tracking-widest pt-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                className="w-4 h-4 text-amber-600"
+              >
+                <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM9 7.5A.75.75 0 0 1 9.75 6.75h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 9 7.5Zm0 3a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 9 10.5Zm-1.5 3a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5a.75.75 0 0 1-.75-.75Zm1.5 3a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75Z" clipRule="evenodd" />
+              </svg>
+              <span>Scan to support</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="bg-transparent p-4 mx-auto justify-center items-center text-center">
+
       </section>
     </section>
   );

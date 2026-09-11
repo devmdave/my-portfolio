@@ -11,7 +11,7 @@ export default function Home() {
       <Navbar></Navbar>
 
       {/* 1. HERO */}
-      <section className="h-auto max-md:flex-col flex flex-row">
+      <section className="h-auto max-md:flex-col flex flex-row border-b border-slate-300/50 p-0">
         <div className="w-[50%] max-md:w-full text-center">
           <Image
             src={man}
@@ -150,39 +150,68 @@ export default function Home() {
       {/* 3. WHAT I BUILD */}
       <section className="py-16 px-4 flex flex-col items-center" id="what-i-build">
         <div className="glass-card rounded-2xl p-8 sm:p-10 max-w-5xl w-full mx-auto text-center">
-          <h2 className="text-3xl poppins-bold font-bold text-slate-700 mb-8 uppercase tracking-wider">
+          <h2 className="text-3xl poppins-bold font-bold text-slate-700 mb-6 uppercase tracking-wider">
             What I Build
           </h2>
-          <div className="text-left max-w-3xl mx-auto space-y-6 poppins-regular text-slate-600">
-            <p className="text-lg">
-              I engineer integrated systems that bridge the gap between physical hardware and digital software.
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-slate-700 font-medium">
-              <div className="flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-slate-500"></span>
+          <p className="text-lg font-medium text-slate-700 mb-8 max-w-2xl mx-auto italic poppins-medium">
+            “I build software and systems that connect the digital world with the physical one.”
+          </p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 text-left max-w-4xl mx-auto">
+            <div className="bg-white/50 rounded-xl p-5 border border-white/60 shadow-xs flex flex-col hover:bg-white/70 transition-colors duration-300">
+              <h3 className="text-base font-bold text-slate-800 mb-1 flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-slate-500 flex-shrink-0"></span>
                 Web Applications
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-slate-500"></span>
-                Software & Automation
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-slate-500"></span>
-                Embedded Systems
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-slate-500"></span>
-                Hardware–Software Systems
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-slate-500"></span>
-                Connected / Intelligent Products
-              </div>
+              </h3>
+              <p className="text-sm text-slate-600 poppins-regular pl-4">
+                Websites, web applications, dashboards, and digital platforms.
+              </p>
             </div>
-            <p className="pt-4 text-sm poppins-light text-slate-500 border-t border-slate-200">
-              I emphasize clear interfaces, deterministic behavior, and maintainable architecture to build systems suitable for real-world deployment.
-            </p>
+
+            <div className="bg-white/50 rounded-xl p-5 border border-white/60 shadow-xs flex flex-col hover:bg-white/70 transition-colors duration-300">
+              <h3 className="text-base font-bold text-slate-800 mb-1 flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-slate-500 flex-shrink-0"></span>
+                Software & Automation
+              </h3>
+              <p className="text-sm text-slate-600 poppins-regular pl-4">
+                Practical software tools and automation that simplify workflows and solve real problems.
+              </p>
+            </div>
+
+            <div className="bg-white/50 rounded-xl p-5 border border-white/60 shadow-xs flex flex-col hover:bg-white/70 transition-colors duration-300">
+              <h3 className="text-base font-bold text-slate-800 mb-1 flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-slate-500 flex-shrink-0"></span>
+                Embedded & Electronics
+              </h3>
+              <p className="text-sm text-slate-600 poppins-regular pl-4">
+                Arduino, microcontrollers, electronics, and embedded systems.
+              </p>
+            </div>
+
+            <div className="bg-white/50 rounded-xl p-5 border border-white/60 shadow-xs flex flex-col hover:bg-white/70 transition-colors duration-300">
+              <h3 className="text-base font-bold text-slate-800 mb-1 flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-slate-500 flex-shrink-0"></span>
+                Hardware × Software Systems
+              </h3>
+              <p className="text-sm text-slate-600 poppins-regular pl-4">
+                Systems where physical hardware communicates with software to create complete connected solutions.
+              </p>
+            </div>
+
+            <div className="bg-white/50 rounded-xl p-5 border border-white/60 shadow-xs flex flex-col hover:bg-white/70 transition-colors duration-300 md:col-span-2">
+              <h3 className="text-base font-bold text-slate-800 mb-1 flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-slate-500 flex-shrink-0"></span>
+                AI-Powered Applications
+              </h3>
+              <p className="text-sm text-slate-600 poppins-regular pl-4">
+                Practical applications involving AI, computer vision, data processing, and intelligent automation.
+              </p>
+            </div>
           </div>
+
+          <p className="pt-6 mt-8 text-sm poppins-light text-slate-500 border-t border-slate-200 text-center max-w-3xl mx-auto">
+            I emphasize clear interfaces, deterministic behavior, and maintainable architecture to build systems suitable for real-world deployment.
+          </p>
         </div>
       </section>
 
@@ -303,84 +332,149 @@ export default function Home() {
 
       {/* 5. TECH FLUENCY */}
       <section className="py-16 px-4 flex flex-col items-center" id="tech-fluency">
-        <div className="glass-card rounded-2xl p-8 sm:p-10 w-full max-w-5xl mx-auto">
-          <h2 className="text-3xl poppins-bold font-bold text-slate-700 mb-10 uppercase tracking-wider text-center">
+        <div className="glass-card rounded-2xl p-8 sm:p-10 w-full max-w-5xl mx-auto text-center">
+          <h2 className="text-3xl poppins-bold font-bold text-slate-700 mb-2 uppercase tracking-wider">
             Tech Fluency
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="space-y-6">
-              <div>
-                <div className="flex flex-row justify-between mb-2">
-                  <span className="text-base font-bold uppercase text-slate-700">C/C++</span>
-                  <span className="text-sm font-bold text-slate-700">80%</span>
+          <p className="text-sm poppins-regular italic text-slate-500 mb-10">
+            “The tools change. The ability to build doesn’t.”
+          </p>
+
+          {/* Connected Engineering Stack */}
+          <div className="flex flex-col gap-3 text-left max-w-4xl mx-auto">
+
+            {/* WEB CLUSTER */}
+            <div className="bg-white/50 rounded-xl p-5 border border-white/60 shadow-xs hover:bg-white/70 transition-all duration-300">
+              <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <div className="md:w-1/4 flex items-center gap-3">
+                  <span className="text-xs font-bold uppercase tracking-widest text-slate-600 bg-white/80 border border-slate-300/80 px-3 py-1 rounded-full shadow-xs">
+                    WEB
+                  </span>
                 </div>
-                <div className="w-full bg-slate-200 rounded-full h-2.5">
-                  <div className="bg-gradient-to-r from-gray-400 to-slate-900 h-2.5 w-[80%] rounded-full"></div>
-                </div>
-              </div>
-              <div>
-                <div className="flex flex-row justify-between mb-2">
-                  <span className="text-base font-bold uppercase text-slate-700">java</span>
-                  <span className="text-sm font-bold text-slate-700">75%</span>
-                </div>
-                <div className="w-full bg-slate-200 rounded-full h-2.5">
-                  <div className="bg-gradient-to-r from-gray-400 to-slate-900 h-2.5 w-[75%] rounded-full"></div>
-                </div>
-              </div>
-              <div>
-                <div className="flex flex-row justify-between mb-2">
-                  <span className="text-base font-bold uppercase text-slate-700">python</span>
-                  <span className="text-sm font-bold text-slate-700">90%</span>
-                </div>
-                <div className="w-full bg-slate-200 rounded-full h-2.5">
-                  <div className="bg-gradient-to-r from-gray-400 to-slate-900 h-2.5 w-[90%] rounded-full"></div>
+                <div className="md:w-3/4 flex flex-wrap gap-2">
+                  <span className="bg-white/80 border border-slate-200/90 rounded-lg px-3 py-1.5 text-xs text-slate-700 font-semibold shadow-2xs">
+                    JavaScript / Next.js / React <span className="text-slate-500 font-normal ml-1">· Web Apps & Dashboards</span>
+                  </span>
+                  <span className="bg-white/80 border border-slate-200/90 rounded-lg px-3 py-1.5 text-xs text-slate-700 font-semibold shadow-2xs">
+                    HTML / CSS / Tailwind <span className="text-slate-500 font-normal ml-1">· Responsive Interfaces</span>
+                  </span>
+                  <span className="bg-white/80 border border-slate-200/90 rounded-lg px-3 py-1.5 text-xs text-slate-700 font-semibold shadow-2xs">
+                    Node.js / Express <span className="text-slate-500 font-normal ml-1">· Server Logic & APIs</span>
+                  </span>
                 </div>
               </div>
             </div>
-            <div className="space-y-6">
-              <div>
-                <div className="flex flex-row justify-between mb-2">
-                  <span className="text-base font-bold uppercase text-slate-700">html</span>
-                  <span className="text-sm font-bold text-slate-700">95%</span>
+
+            {/* Flow Arrow */}
+            <div className="flex justify-center -my-1 text-slate-400">
+              <svg className="w-5 h-5 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+              </svg>
+            </div>
+
+            {/* SOFTWARE CLUSTER */}
+            <div className="bg-white/50 rounded-xl p-5 border border-white/60 shadow-xs hover:bg-white/70 transition-all duration-300">
+              <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <div className="md:w-1/4 flex items-center gap-3">
+                  <span className="text-xs font-bold uppercase tracking-widest text-slate-600 bg-white/80 border border-slate-300/80 px-3 py-1 rounded-full shadow-xs">
+                    SOFTWARE
+                  </span>
                 </div>
-                <div className="w-full bg-slate-200 rounded-full h-2.5">
-                  <div className="bg-gradient-to-r from-gray-400 to-slate-900 h-2.5 w-[95%] rounded-full"></div>
-                </div>
-              </div>
-              <div>
-                <div className="flex flex-row justify-between mb-2">
-                  <span className="text-base font-bold uppercase text-slate-700">css</span>
-                  <span className="text-sm font-bold text-slate-700">95%</span>
-                </div>
-                <div className="w-full bg-slate-200 rounded-full h-2.5">
-                  <div className="bg-gradient-to-r from-gray-400 to-slate-900 h-2.5 w-[95%] rounded-full"></div>
-                </div>
-              </div>
-              <div>
-                <div className="flex flex-row justify-between mb-2">
-                  <span className="text-base font-bold uppercase text-slate-700">js</span>
-                  <span className="text-sm font-bold text-slate-700">85%</span>
-                </div>
-                <div className="w-full bg-slate-200 rounded-full h-2.5">
-                  <div className="bg-gradient-to-r from-gray-400 to-slate-900 h-2.5 w-[85%] rounded-full"></div>
+                <div className="md:w-3/4 flex flex-wrap gap-2">
+                  <span className="bg-white/80 border border-slate-200/90 rounded-lg px-3 py-1.5 text-xs text-slate-700 font-semibold shadow-2xs">
+                    Java <span className="text-slate-500 font-normal ml-1">· Core Software & Android</span>
+                  </span>
+                  <span className="bg-white/80 border border-slate-200/90 rounded-lg px-3 py-1.5 text-xs text-slate-700 font-semibold shadow-2xs">
+                    MongoDB <span className="text-slate-500 font-normal ml-1">· Data Storage & Databases</span>
+                  </span>
+                  <span className="bg-white/80 border border-slate-200/90 rounded-lg px-3 py-1.5 text-xs text-slate-700 font-semibold shadow-2xs">
+                    Git & GitHub <span className="text-slate-500 font-normal ml-1">· Source Control & Workflows</span>
+                  </span>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="flex flex-col mt-12 justify-center items-center">
-            <h3 className="text-xl poppins-bold text-center font-bold text-slate-700 mb-6 uppercase tracking-wider">
-              Core Stack & Tools
-            </h3>
-            <div className="flex flex-wrap justify-center gap-3 w-full">
-              {techstacky[0].tags.map((tag) => (
-                <span
-                  key={tag}
-                  className="glass text-slate-700 px-4 py-2 rounded-full text-xs font-semibold border border-white/60 shadow-xs"
-                >
-                  {tag}
-                </span>
-              ))}
+
+            {/* Flow Arrow */}
+            <div className="flex justify-center -my-1 text-slate-400">
+              <svg className="w-5 h-5 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+              </svg>
             </div>
+
+            {/* AI / DATA CLUSTER */}
+            <div className="bg-white/50 rounded-xl p-5 border border-white/60 shadow-xs hover:bg-white/70 transition-all duration-300">
+              <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <div className="md:w-1/4 flex items-center gap-3">
+                  <span className="text-xs font-bold uppercase tracking-widest text-slate-600 bg-white/80 border border-slate-300/80 px-3 py-1 rounded-full shadow-xs">
+                    AI / DATA
+                  </span>
+                </div>
+                <div className="md:w-3/4 flex flex-wrap gap-2">
+                  <span className="bg-white/80 border border-slate-200/90 rounded-lg px-3 py-1.5 text-xs text-slate-700 font-semibold shadow-2xs">
+                    Python <span className="text-slate-500 font-normal ml-1">· AI Modeling & Automation</span>
+                  </span>
+                  <span className="bg-white/80 border border-slate-200/90 rounded-lg px-3 py-1.5 text-xs text-slate-700 font-semibold shadow-2xs">
+                    Pandas / NumPy <span className="text-slate-500 font-normal ml-1">· Data Analytics & Processing</span>
+                  </span>
+                  <span className="bg-white/80 border border-slate-200/90 rounded-lg px-3 py-1.5 text-xs text-slate-700 font-semibold shadow-2xs">
+                    OpenAI / LangChain <span className="text-slate-500 font-normal ml-1">· GenAI Agents & Extraction</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/* Flow Arrow */}
+            <div className="flex justify-center -my-1 text-slate-400">
+              <svg className="w-5 h-5 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+              </svg>
+            </div>
+
+            {/* EMBEDDED CLUSTER */}
+            <div className="bg-white/50 rounded-xl p-5 border border-white/60 shadow-xs hover:bg-white/70 transition-all duration-300">
+              <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <div className="md:w-1/4 flex items-center gap-3">
+                  <span className="text-xs font-bold uppercase tracking-widest text-slate-600 bg-white/80 border border-slate-300/80 px-3 py-1 rounded-full shadow-xs">
+                    EMBEDDED
+                  </span>
+                </div>
+                <div className="md:w-3/4 flex flex-wrap gap-2">
+                  <span className="bg-white/80 border border-slate-200/90 rounded-lg px-3 py-1.5 text-xs text-slate-700 font-semibold shadow-2xs">
+                    C / C++ <span className="text-slate-500 font-normal ml-1">· Embedded Systems & Firmware</span>
+                  </span>
+                  <span className="bg-white/80 border border-slate-200/90 rounded-lg px-3 py-1.5 text-xs text-slate-700 font-semibold shadow-2xs">
+                    Arduino / Microcontrollers <span className="text-slate-500 font-normal ml-1">· Sensor Interfacing & Control</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/* Flow Arrow */}
+            <div className="flex justify-center -my-1 text-slate-400">
+              <svg className="w-5 h-5 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+              </svg>
+            </div>
+
+            {/* HARDWARE CLUSTER */}
+            <div className="bg-white/50 rounded-xl p-5 border border-white/60 shadow-xs hover:bg-white/70 transition-all duration-300">
+              <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <div className="md:w-1/4 flex items-center gap-3">
+                  <span className="text-xs font-bold uppercase tracking-widest text-slate-600 bg-white/80 border border-slate-300/80 px-3 py-1 rounded-full shadow-xs">
+                    HARDWARE
+                  </span>
+                </div>
+                <div className="md:w-3/4 flex flex-wrap gap-2">
+                  <span className="bg-white/80 border border-slate-200/90 rounded-lg px-3 py-1.5 text-xs text-slate-700 font-semibold shadow-2xs">
+                    Electronics & Circuits <span className="text-slate-500 font-normal ml-1">· Hardware Prototyping</span>
+                  </span>
+                  <span className="bg-white/80 border border-slate-200/90 rounded-lg px-3 py-1.5 text-xs text-slate-700 font-semibold shadow-2xs">
+                    Hardware–Software Integration <span className="text-slate-500 font-normal ml-1">· Real-World Connected Products</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -389,9 +483,9 @@ export default function Home() {
 
       {/* 7 & 8. CONTACT ME & SUPPORT MY WORK */}
       <section className="py-16 px-4 flex flex-col items-center poppins-medium" id="contact">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-5xl mx-auto items-stretch">
+        <div className="grid grid-cols-2 lg:grid-cols-1 gap-8 w-full max-w-5xl mx-auto items-stretch">
           {/* Contact Form */}
-          <div className="w-full flex flex-col h-full">
+          <div className="w-full flex flex-col h-full mx-auto">
             <form className="glass-card rounded-2xl p-8 sm:p-10 w-full h-full flex flex-col justify-between space-y-4">
               <div>
                 <h2 className="text-3xl text-center poppins-bold font-bold text-slate-700 mb-2 uppercase tracking-wider">
@@ -402,7 +496,7 @@ export default function Home() {
                   below and I’ll get back to you soon!
                 </p>
               </div>
-              <div className="flex flex-col space-y-4 flex-1 justify-center">
+              <div className="flex flex-col space-y-4 flex-1 justify-center max-w-lg w-full mx-auto">
                 <input
                   type="text"
                   placeholder="Your Name"
@@ -424,7 +518,7 @@ export default function Home() {
               </div>
               <button
                 type="submit"
-                className="mt-4 px-6 py-3 rounded-full bg-gradient-to-r from-gray-500 to-slate-700 text-white font-bold shadow-lg hover:from-slate-600 hover:to-gray-700 transition-all duration-300 poppins-bold uppercase tracking-wider"
+                className="mt-4 px-6 py-3 max-w-md w-full mx-auto rounded-full bg-gradient-to-r from-gray-500 to-slate-700 text-white font-bold shadow-lg hover:from-slate-600 hover:to-gray-700 transition-all duration-300 poppins-bold uppercase tracking-wider"
               >
                 Send Message
               </button>
@@ -432,7 +526,7 @@ export default function Home() {
           </div>
 
           {/* Support My Work */}
-          <div className="w-full flex flex-col h-full">
+          <div className="w-full flex flex-col h-full mx-auto">
             <div className="glass-card rounded-2xl p-8 sm:p-10 w-full h-full flex flex-col items-center justify-between text-center">
               <div>
                 <h3 className="text-3xl text-center poppins-bold font-bold text-slate-700 mb-2 uppercase tracking-wider">

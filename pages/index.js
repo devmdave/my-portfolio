@@ -52,8 +52,8 @@ export default function Home() {
             <div className="w-full max-w-md max-md:hidden max-md:mt-[2vh] max-md:mx-auto mt-[8vh] mb-8">
               <div className="flex flex-col gap-4">
                 <a
-                  href="mailto:davemadhav2007@gmail.com"
-                  className="flex max-md:text-xs items-center gap-3 glass-card rounded-xl px-6 py-4 hover:scale-105 transition-transform duration-300"
+                  href="mailto:madhav.dave@outlook.com"
+                  className="flex max-md:text-xs items-center gap-3 bg-white shadow-lg rounded-xl px-6 py-4 hover:scale-105 transition-transform duration-300 border border-slate-200"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -71,8 +71,8 @@ export default function Home() {
                     <rect width="20" height="16" x="2" y="4" rx="2" />
                     <path d="m22 6-10 7L2 6" />
                   </svg>
-                  <span className="font-semibold text-slate-700 select-all poppins-medium">
-                    davemadhav2007@gmail.com
+                  <span className="font-semibold text-slate-700 select-all">
+                    madhav.dave@outlook.com
                   </span>
                 </a>
                 <div className="flex items-center gap-3 glass-card rounded-xl px-6 py-4">

@@ -6,8 +6,12 @@ export default function Certificates() {
     <>
     <section className="h-auto flex flex-col">
       <Navbar></Navbar>
-      <h2 className="text-center text-3xl font-bold text-slate-700 mb-10 uppercase tracking-wider">Certificates</h2>
-      <div className="mb-30 flex mx-auto max-md:w-[80vw] h-auto flex-col gap-8 w-full max-w-2xl">
+      <div className="relative flex justify-center items-center w-full pt-32 pb-20 md:pt-40 md:pb-24 animate-fadeInUp">
+        <h1 className="absolute text-[14vw] md:text-[110px] lg:text-[150px] font-black text-gray-400 uppercase tracking-normal select-none z-0" style={{ WebkitTextStroke: '4px currentColor' }}>
+          CERTIFICATES
+        </h1>
+      </div>
+      <div className="relative z-10 mb-30 flex mx-auto max-md:w-[80vw] h-auto flex-col gap-8 w-full max-w-2xl">
         {certificates.map((cert) => (
           <div key={cert.id} className="bg-white shadow-lg rounded-2xl p-6 flex flex-col md:flex-row items-center">
             <div className="w-full md:w-1/2 h-64 mb-4 md:mb-0 md:mr-6">

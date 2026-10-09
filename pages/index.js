@@ -22,7 +22,7 @@ export default function Home() {
         <div className="w-[50%] h-auto max-md:w-[90%] max-md:mx-auto text-center">
           <div className="mx-auto h-auto text-start max-md:text-center w-[100%]">
             <h1 className="text-md poppins-medium font-medium max-md:mt-[10vh] mt-[20vh] uppercase tracking-wider text-slate-500">
-              this is me
+              hey there, this is me
             </h1>
             <div className="max-md:mx-auto max-md:text-center max-md:w-full">
               <h1 className="hover:animate-pulse max-md:text-center ease-in-out duration-400 transition-all text-4xl max-md:mt-[1vh] mt-[3vh] poppins-bold text-slate-700">
@@ -31,7 +31,7 @@ export default function Home() {
               </h1>
             </div>
             <h1 className="text-xs max-md:mt-[2vh] mt-[2vh] text-slate-700 uppercase poppins-regular leading-relaxed">
-              Software + Electronics → Real-World Systems<br/>
+              Software + Electronics → Real-World Systems<br />
               ECE Student | Software Developer | Hardware–Software Integration
             </h1>
             <a href="https://docs.google.com/document/d/1T9cKeQSvxSqs-6QPLrfYyjKrN1XeJgJI8gF4n3sqo0I/export?format=pdf" download>
@@ -100,7 +100,7 @@ export default function Home() {
       <section className="py-16 px-4 flex flex-col items-center" id="selected-work">
         <div className="glass-card rounded-2xl p-8 sm:p-10 w-full max-w-5xl mx-auto">
           <h2 className="text-3xl poppins-bold font-bold text-slate-700 mb-10 uppercase tracking-wider text-center">
-            Selected Work
+            Projects & Builds
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full items-stretch">
             {projects.slice(0, 3).map((project, idx) => (
@@ -151,12 +151,12 @@ export default function Home() {
       <section className="py-16 px-4 flex flex-col items-center" id="what-i-build">
         <div className="glass-card rounded-2xl p-8 sm:p-10 max-w-5xl w-full mx-auto text-center">
           <h2 className="text-3xl poppins-bold font-bold text-slate-700 mb-6 uppercase tracking-wider">
-            What I Build
+            Build Capabilities
           </h2>
           <p className="text-lg font-medium text-slate-700 mb-8 max-w-2xl mx-auto italic poppins-medium">
             “I build software and systems that connect the digital world with the physical one.”
           </p>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 text-left max-w-4xl mx-auto">
             <div className="bg-white/50 rounded-xl p-5 border border-white/60 shadow-xs flex flex-col hover:bg-white/70 transition-colors duration-300">
               <h3 className="text-base font-bold text-slate-800 mb-1 flex items-center gap-2">
@@ -221,9 +221,9 @@ export default function Home() {
           <h2 className="text-3xl poppins-bold font-bold text-slate-700 mb-10 uppercase tracking-wider text-center border-b border-slate-300/50 pb-4">
             Experience & Impact
           </h2>
-          
+
           <div className="flex flex-col gap-10">
-            
+
             {/* PROFESSIONAL EXPERIENCE */}
             <div>
               <h3 className="text-lg font-bold text-slate-500 mb-4 uppercase tracking-widest border-l-4 border-slate-500 pl-3">
@@ -562,7 +562,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
+
       <section className="bg-transparent p-4 mx-auto justify-center items-center text-center">
       </section>
     </section>

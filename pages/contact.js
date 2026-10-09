@@ -15,7 +15,13 @@ export default function Contact() {
       <section className="flex flex-col">
         <Navbar />
 
-        <div className="mb-30 mx-auto animate-fadeInUp max-md:h-auto max-md:w-[80vw] bg-white shadow-2xl rounded-2xl max-w-lg w-full p-10 flex flex-col items-center">
+        <div className="relative flex justify-center items-center w-full pt-32 pb-20 md:pt-40 md:pb-24 animate-fadeInUp">
+          <h1 className="absolute text-[18vw] md:text-[140px] lg:text-[180px] font-black text-gray-400 uppercase tracking-normal select-none z-0" style={{ WebkitTextStroke: '4px currentColor' }}>
+            CONTACT ME
+          </h1>
+        </div>
+
+        <div className="relative z-10 mb-30 mx-auto animate-fadeInUp max-md:h-auto max-md:w-[80vw] bg-white shadow-2xl rounded-2xl max-w-lg w-full p-10 flex flex-col items-center">
           <h2 className="text-3xl font-bold text-slate-700 mb-[4vh] uppercase tracking-wider text-center">
             Contact Me
           </h2>

@@ -8,10 +8,12 @@ export default function Projects() {
       <section className="flex flex-col">
         <Navbar />
 
-        <h2 className="text-center text-3xl font-bold text-slate-700 mb-10 uppercase tracking-wider animate-fadeInUp">
-          Projects
-        </h2>
-        <div className="mb-30 max-md:w-[80vw] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-full max-w-6xl">
+        <div className="relative flex justify-center items-center w-full pt-32 pb-20 md:pt-40 md:pb-24 animate-fadeInUp">
+          <h1 className="absolute text-[18vw] md:text-[140px] lg:text-[180px] font-black text-gray-400 uppercase tracking-normal select-none z-0" style={{ WebkitTextStroke: '4px currentColor' }}>
+            MY WORK
+          </h1>
+        </div>
+        <div className="relative z-10 mb-30 max-md:w-[80vw] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-full max-w-6xl">
           {projects.map((project, idx) => (
             <div
               key={project.id}

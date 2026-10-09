@@ -47,10 +47,8 @@ export default function AboutPage() {
   return (
     <>
       <style jsx global>{`
-        @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
-
         .about-page-wrapper {
-          font-family: "Inter", sans-serif;
+          font-family: "Space Grotesk", sans-serif;
           background-color: #ffffff;
           color: #334155; /* slate-700 */
           overflow-x: hidden;
@@ -172,22 +170,28 @@ export default function AboutPage() {
       <div className="relative ">
         <Navbar></Navbar>
 
+        <div className="relative flex justify-center items-center w-full pt-32 pb-10 md:pt-40 md:pb-12 animate-fade-in-up">
+          <h1 className="absolute text-[18vw] md:text-[140px] lg:text-[180px] font-black text-gray-400 uppercase tracking-normal select-none z-0" style={{ WebkitTextStroke: '4px currentColor' }}>
+            ABOUT ME
+          </h1>
+        </div>
+
         {/* Main Content */}
 
-        <main className="max-md:pt-0 pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto space-y-24 relative z-10">
+        <main className="max-md:pt-0 pt-10 md:pt-16 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto space-y-24 relative z-10">
           {/* 2. Biography Section */}
-          <section className="grid md:grid-cols-12 gap-12 items-center">
-            <div className="md:col-span-5 animate-fade-in-up">
-              <div className="glass-card rounded-3xl p-2 rotate-2 hover:rotate-0 transition duration-500">
+          <section className="grid md:grid-cols-12 gap-12 items-stretch">
+            <div className="md:col-span-5 animate-fade-in-up h-full">
+              <div className="glass-card rounded-3xl p-2 rotate-2 hover:rotate-0 transition duration-500 h-full flex items-center justify-center">
                 <Image
                   src={man}
                   alt="Hero Image"
-                  className="ease-in-out duration-1000 transition-all mx-auto bg-cover w-auto h-full object-cover"
+                  className="ease-in-out duration-1000 transition-all mx-auto bg-cover w-auto h-full object-cover rounded-3xl"
                 />
               </div>
             </div>
-            <div className="md:col-span-7 space-y-6 animate-fade-in-up delay-100">
-              <div className="glass-card p-8 rounded-3xl">
+            <div className="md:col-span-7 animate-fade-in-up delay-100 h-full">
+              <div className="glass-card p-8 rounded-3xl h-full flex flex-col justify-center">
                 <h2 className="text-2xl tracking-wider flex flex-row mb-[2vh] font-bold text-slate-800 flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -280,7 +284,7 @@ export default function AboutPage() {
           </section>
 
           {/* 4. Experience/Roles Section */}
-          <section className="w-[90vw] glass-card rounded-xl backdrop-blur-sm p-8 mx-auto bg-white">
+          <section className="w-full glass-card rounded-xl backdrop-blur-sm p-8 mx-auto bg-white">
             <h2 className="text-2xl  flex flex-row tracking-wider font-bold text-slate-800 mb-10 text-left animate-fade-in-up">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -295,7 +299,7 @@ export default function AboutPage() {
                 />
                 <path d="M3 18.4v-2.796a4.3 4.3 0 0 0 .713.31A26.226 26.226 0 0 0 12 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 0 1-6.477-.427C4.047 21.128 3 19.852 3 18.4Z" />
               </svg>
-              WORK EXPEREINCE
+              WORK EXPERIENCE
             </h2>
             <div className="grid  md:grid-cols-2 gap-6">
               {/* Role 1 */}

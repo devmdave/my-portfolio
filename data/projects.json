@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio Website",
+    "desc": "A modern, responsive portfolio built with Next.js and Tailwind CSS, featuring animated sections and a clean UI.",
+    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
+    "link": "https://github.com/devmdave/portfolio",
+    "tags": ["Next.js", "Tailwind CSS", "React"]
+  },
+  {
+    "id": 2,
+    "title": "AI Chatbot",
+    "desc": "An intelligent chatbot powered by OpenAI, capable of answering user queries and providing recommendations.",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80",
+    "link": "https://github.com/devmdave/ai-chatbot",
+    "tags": ["OpenAI", "Node.js", "Express"]
+  },
+  {
+    "id": 3,
+    "title": "Task Manager App",
+    "desc": "A productivity app to manage daily tasks, with drag-and-drop, reminders, and a beautiful dashboard.",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80",
+    "link": "https://github.com/devmdave/task-manager",
+    "tags": ["React", "Redux", "Firebase"]
+  },
+    {
+    "id": 4,
+    "title": "Task Manager App",
+    "desc": "A productivity app to manage daily tasks, with drag-and-drop, reminders, and a beautiful dashboard.",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80",
+    "link": "https://github.com/devmdave/task-manager",
+    "tags": ["Python", "HTML", "PLC"]
+    }
+]
